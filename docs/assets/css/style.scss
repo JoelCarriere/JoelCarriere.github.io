@@ -1,7 +1,23 @@
-body {
-  margin: 0;
-  background-color: #F7C201;
-  text-align: center;
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+
+h1 {
+  font-family: Lobster, sans-serif;
+  font-size: 1.5em;
+  color: blue;
 
 }
 
+.headshot-img {
+  border-radius: 50%;
+}
+
+body {
+  margin: 0;
+  background-color: #79BAEC;
+  text-align: center;
+  font-family: verdana;
+}
+
+
+</style>
