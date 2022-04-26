@@ -8,6 +8,10 @@ h1 {
 
 }
 
+.headshot-img {
+  border-radius: 50%;
+}
+
 body {
   margin: 0;
   background-color: #79BAEC;
