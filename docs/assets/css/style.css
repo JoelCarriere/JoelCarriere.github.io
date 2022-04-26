@@ -16,14 +16,14 @@
 
 h1 {
   font-family: Lobster, sans-serif;
-  font-size: 1.5em;
-  color: blue;
+  font-size: 4em;
+  color: black;
 }
 
 h2 {
   font-family: Lobster, sans-serif;
-  font-size: 1em;
-  color: blue;
+  font-size: 2em;
+  color: black;
 }
 
 
@@ -36,7 +36,6 @@ h2 {
 
 body {
   margin: 0;
-  background-color: #79BAEC;
   text-align: center;
   font-family: verdana;
 }
