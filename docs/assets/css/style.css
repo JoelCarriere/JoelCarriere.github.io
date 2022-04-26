@@ -3,7 +3,7 @@
 <style>
  head{
    text-align: center;
-   font-family: Lobster;
+   font-family: "Lobster";
 
  }
 
@@ -19,13 +19,13 @@
 }
 
 h1 {
-  font-family: Lobster, sans-serif;
+  font-family: "Lobster", sans-serif;
   font-size: 4em;
   color: black;
 }
 
 h2 {
-  font-family: Lobster, sans-serif;
+  font-family: "Lobster", sans-serif;
   font-size: 2em;
   color: black;
 }
@@ -45,5 +45,12 @@ body {
   font-family: verdana;
 }
 
+header {
+  margin: 0;
+  text-align: center;
+  background-color: #FFFFFF;
+  font-family: "Lobster";
+
+}
 
 </style>
