@@ -39,14 +39,14 @@ h2 {
 }
 
 body {
-  margin: auto;
+  margin: 0;
   text-align: center;
   background-color: #FFFFFF;
   font-family: verdana;
 }
 
 header {
-  margin: auto;
+  margin: 0;
   text-align: center;
   background-color: #FFC921;
   font-family: "Bebas Neue";
