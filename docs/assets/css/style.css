@@ -9,6 +9,9 @@
 
 .top-background {
   background-color: #FFC921;
+  margin: 0;
+  text-align: center;
+  font-family: Lobster;
 }
 
 .bottom-background {
