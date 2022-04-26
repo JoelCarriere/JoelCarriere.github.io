@@ -8,7 +8,7 @@
 
  header {
    text-align: center;
-   background-color: hsl(0.13,	100%,	56%);
+   background-color: #FFC921;
    font-family: "Bebas Neue";
 
  }
@@ -16,7 +16,7 @@
  body {
    margin: 0;
    text-align: center;
-   background-color: hsl(0.13,	100%,	56%);
+   background-color: #FFD34D;
    font-family: verdana;
  }
 
