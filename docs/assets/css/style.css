@@ -41,14 +41,14 @@ h2 {
 body {
   margin: 0;
   text-align: center;
-  background-color: #FFFFFF;
+  background-color: hsl(0.13,	100%,	75%);
   font-family: verdana;
 }
 
 header {
   margin: 0;
   text-align: center;
-  background-color: #FFC921;
+  background-color: hsl(0.13,	100%,	56%);
   font-family: "Bebas Neue";
 
 }
