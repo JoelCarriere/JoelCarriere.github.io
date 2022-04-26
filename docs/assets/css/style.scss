@@ -1,6 +1,14 @@
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style>
 
+.top-background {
+  background-color: #FFC921;
+}
+
+.bottom-background {
+  background-color: #FFE8A2;
+}
+
 h1 {
   font-family: Lobster, sans-serif;
   font-size: 1.5em;
@@ -15,6 +23,9 @@ h2 {
 
 
 .headshot-img {
+  height: 600px;
+  margin:100px;
+  float: center;
   border-radius: 50%;
 }
 
