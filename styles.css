@@ -1,6 +1,19 @@
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+
+title {
+  font-family: Lobster, sans-serif;
+  font-size: 1.5em;
+  color: blue;
+
+}
+
 body {
   margin: 0;
   background-color: #79BAEC;
   text-align: center;
   font-family: verdana;
 }
+
+
+</style>
