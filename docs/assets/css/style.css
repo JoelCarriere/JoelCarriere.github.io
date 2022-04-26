@@ -4,7 +4,20 @@
  head{
    text-align: center;
    font-family: "Lobster";
+ }
 
+ header {
+   text-align: center;
+   background-color: hsl(0.13,	100%,	56%);
+   font-family: "Bebas Neue";
+
+ }
+
+ body {
+   margin: 0;
+   text-align: center;
+   background-color: hsl(0.13,	100%,	56%);
+   font-family: verdana;
  }
 
 .top-background {
@@ -38,19 +51,7 @@ h2 {
   border-radius: 50%;
 }
 
-body {
-  margin: 0;
-  text-align: center;
-  background-color: hsl(0.13,	100%,	75%);
-  font-family: verdana;
-}
 
-header {
-  margin: 0;
-  text-align: center;
-  background-color: hsl(0.13,	100%,	56%);
-  font-family: "Bebas Neue";
 
-}
 
 </style>
