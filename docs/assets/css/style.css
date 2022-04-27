@@ -1,7 +1,7 @@
 @import url(//fonts.google.com/specimen/Bebas+Neue);
 
 <link href="//fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-<link href="//fonts.google.com/specimen/Bebas+Neue" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css2?family=Crimson+Pro"" rel="stylesheet" type="text/css">
 <style>
  head{
    text-align: center;
@@ -11,7 +11,7 @@
  header {
    text-align: center;
    background-color: #FFC921;
-   font-family: "Bebas Neue";
+   font-family: 'Crimson Pro';
 
  }
 
