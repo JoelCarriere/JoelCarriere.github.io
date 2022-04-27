@@ -1,18 +1,21 @@
-@import url(//fonts.google.com/specimen/Bebas+Neue);
-@import url(//fonts.googleapis.com/css2?family=Crimson+Pro);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+@import url(http://fonts.googleapis.com/css?family=Cinzel);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
+@import url(http://fonts.googleapis.com/css?family=Fondamento);
+
 
 <link href="//fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-<link href="//fonts.googleapis.com/css2?family=Crimson+Pro" rel="stylesheet" type="text/css">
+
 <style>
  head{
    text-align: center;
-   font-family: "Lobster";
+   font-family: 'PT Sans', sans-serif;
  }
 
  header {
    text-align: center;
    background-color: #FFC921;
-   font-family: Garamond, serif;
+   font-family: 'Cinzel', serif;
 
  }
 
@@ -20,13 +23,22 @@
    margin: 0;
    text-align: center;
    background-color: #FFD34D;
-   font-family: verdana;
+   font-family: 'Roboto Condensed', sans-serif;
  }
 
 .menu {
   list-style-type: none;
+  list-style: none;
   color: red;
-  font-family: cursive;
+  font-family: 'Fondamento', cursive;
+}
+
+.logo-image{
+   width: 46px;
+   height: 46px;
+   border-radius: 50%;
+   overflow: hidden;
+   margin-top: -6px;
 }
 
 .top-background {
