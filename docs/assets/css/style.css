@@ -8,7 +8,7 @@
 
 <style>
  head{
-   background-color: #E5E3DD;
+   background-color: #2457B1;
    text-align: center;
    font-family: 'PT Sans', sans-serif;
  }
@@ -17,13 +17,13 @@
    text-align: center;
    background-color: #FFC921;
    font-family: 'Cinzel', serif;
-
+   font-size: 3em;
  }
 
  body {
    margin: 0;
    text-align: center;
-   background-color: #2457B1;
+   background-color: #E5E3DD;
    font-family: 'Roboto Condensed', sans-serif;
  }
 
@@ -78,6 +78,14 @@ h2 {
   margin:100px;
   float: center;
   border-radius: 50%;
+}
+
+#div_top_hypers {
+    background-color:#eeeeee;
+    display:inline;
+}
+#ul_top_hypers li{
+    display: inline;
 }
 
 
