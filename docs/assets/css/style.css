@@ -27,17 +27,19 @@
    font-family: 'Roboto Condensed', sans-serif;
  }
 
-.headfoot {
+.menu {
   list-style: none;
-  float: right;
-  color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding-left: 0;
   text-decoration: none;
   font-size: 17px;
+  margin: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.menu {
+.nav {
   font-family: 'Fondamento', cursive;
 }
 
