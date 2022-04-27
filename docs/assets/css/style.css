@@ -26,10 +26,11 @@
    font-family: 'Roboto Condensed', sans-serif;
  }
 
-.menu {
-  list-style-type: none;
+.headfoot {
   list-style: none;
-  color: red;
+}
+
+.menu {
   font-family: 'Fondamento', cursive;
 }
 
