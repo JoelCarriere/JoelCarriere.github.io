@@ -23,6 +23,12 @@
    font-family: verdana;
  }
 
+.menu {
+  list-style-type: none;
+  color: red;
+  font-family: cursive;
+}
+
 .top-background {
   background-color: #FFC921;
   margin: 0;
