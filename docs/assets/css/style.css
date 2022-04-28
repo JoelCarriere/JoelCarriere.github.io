@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Cinzel);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
 @import url(http://fonts.googleapis.com/css?family=Fondamento);
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 <link href="//fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 
@@ -15,15 +15,15 @@
 
  header {
    text-align: center;
-   background-color: #FFC921;
-   font-family: 'Cinzel', serif;
+   background-color: #6592E3;
+   font-family: 'Bebas Neue', serif;
    font-size: 2.5em;
  }
 
  body {
    margin: 0;
    text-align: center;
-   background-color: #E5E3DD;
+   background-color: #D4E1F7;
    font-family: 'Roboto Condensed', sans-serif;
  }
 
@@ -40,7 +40,7 @@
 }
 
 .nav {
-  font-family: 'Fondamento', cursive;
+  font-family: 'Bebas Neue', display;
 }
 
 .logo-image{
@@ -59,7 +59,7 @@
 }
 
 .bottom-background {
-  background-color: #FFE8A2;
+  background-color: #658DD5;
 }
 
 h1 {
