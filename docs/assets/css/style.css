@@ -23,7 +23,7 @@
  body {
    margin: 0;
    text-align: center;
-   background-color: #D4E1F7;
+   background-color: linear-gradient(35deg, #D4E1F7, #FFCCCC);
    font-family: 'Roboto Condensed', sans-serif;
  }
 
