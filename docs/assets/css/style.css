@@ -15,7 +15,7 @@
 
  header {
    text-align: center;
-   background-color: linear-gradient(35deg, #6592E3, #FFCCCC);
+   background: linear-gradient(35deg, #6592E3, #FFCCCC);
    font-family: 'Bebas Neue', serif;
    font-size: 2.5em;
  }
@@ -23,7 +23,7 @@
  body {
    margin: 0;
    text-align: center;
-   background-color: linear-gradient(35deg, #D4E1F7, #FFCCCC);
+   background: linear-gradient(35deg, #D4E1F7, #FFCCCC);
    font-family: 'Roboto Condensed', sans-serif;
  }
 
