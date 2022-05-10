@@ -9,7 +9,7 @@
 <style>
  head{
    display: none;
-   background-color: #2457B1;
+   background-color: transparent;
    text-align: center;
    font-family: 'PT Sans', sans-serif;
  }
@@ -89,7 +89,7 @@ h2 {
 }
 
 #div_top_hypers {
-    background-color:#eeeeee;
+    background-color: transparent;
     display:inline;
 }
 #ul_top_hypers li{
