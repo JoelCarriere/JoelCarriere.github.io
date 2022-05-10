@@ -43,6 +43,10 @@
   font-family: 'Bebas Neue', display;
 }
 
+nav:hover {
+  transform: scale(2);
+}
+
 .logo-image{
    width: 46px;
    height: 46px;
