@@ -42,9 +42,11 @@
 }
 
 .nav {
-  font-family: 'Bebas Neue', display;
-  color: white;
+  text-align: center;
   background-color: grey;
+  font-family: 'Bebas Neue', serif;
+  font-size: 1em;
+  color: white;
 }
 
 nav:hover {
