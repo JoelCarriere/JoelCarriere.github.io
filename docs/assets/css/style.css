@@ -107,7 +107,11 @@ h2 {
 
 li{
     display: inline;
-}
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
 
 ul {
   list-style-type: none;
@@ -118,15 +122,8 @@ ul {
   opacity: 50%;
 }
 
-li a {
-  display: block;
-  color: #000;
-  padding: 8px 16px;
-  text-decoration: none;
-}
-
 /* Change the link color on hover */
-li a:hover {
+li:hover {
   background-color: #555;
   color: grey;
 }
