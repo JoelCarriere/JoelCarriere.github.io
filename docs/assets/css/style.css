@@ -43,6 +43,8 @@
 }
 
 .nav {
+  grid-column-start: 5;
+  grid-column-end: 5;
   text-align: center;
   background-color: grey;
   font-family: 'Bebas Neue', serif;
