@@ -16,15 +16,16 @@
 
  header {
    text-align: center;
-   background-color: transparent;
+   background-color: grey;
    font-family: 'Bebas Neue', serif;
    font-size: 2.5em;
+   color: white;
  }
 
  body {
    margin: 0;
    text-align: center;
-   background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(253,101,133,1) 0%, rgba(255,211,165,1) 90% );
+   background-image: radial-gradient( circle 939px at 94.7% 50%,  rgba(0,178,169,1) 0%, rgba(0,106,101,1) 76.9% );
    font-family: 'Roboto Condensed', sans-serif;
  }
 
@@ -41,17 +42,33 @@
 }
 
 .nav {
-  font-family: 'Bebas Neue', display;
+  text-align: center;
+  background-color: grey;
+  font-family: 'Bebas Neue', serif;
+  font-size: 1em;
+  color: white;
 }
 
 nav:hover {
   transform: scale(1.25);
 }
 
+.button {
+
+}
+
+
+.button:hover {
+  transform: scale(1.1);
+
+}
+
+
+
 .logo-image{
    width: 46px;
    height: 46px;
-   border-radius: 50%;
+   border-radius: 25%;
    overflow: hidden;
    margin-top: -6px;
 
@@ -94,11 +111,29 @@ h2 {
     background-color: transparent;
     display:inline;
 }
-#ul_top_hypers li{
+
+li{
     display: inline;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: transparent;
+  opacity: 50%;
+  float: right;
 }
 
-
-
+/* Change the link color on hover */
+li:hover {
+  background-color: #555;
+  color: grey;
+}
 
 </style>
