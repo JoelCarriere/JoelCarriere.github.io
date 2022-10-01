@@ -29,12 +29,13 @@
   width: 25%;
 }
 
-.nav-top {
+ul {
   width: 75%
   float: right;
 }
 
 ul li {
+  display: inline-block;
   list-style-type: none;
   text-align: center;
   padding-left: 0;
