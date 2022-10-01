@@ -21,6 +21,8 @@
    font-size: 2.5em;
    color: white;
    grid-template-columns: auto 1fr 1fr 1 fr auto;
+   width: 25%;
+   float:left;
  }
 
 .welcome {
