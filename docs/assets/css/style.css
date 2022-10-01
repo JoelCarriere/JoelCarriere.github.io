@@ -21,8 +21,7 @@
    font-size: 2.5em;
    color: white;
    grid-template-columns: auto 1fr 1fr 1 fr auto;
-   width: 25%;
-   float:left;
+   width: 100%
  }
 
 .welcome {
@@ -31,15 +30,6 @@
   width: 25%;
   float: left;
 }
-
-
- body {
-   margin: 0;
-   text-align: center;
-   background-image: radial-gradient( circle 939px at 94.7% 50%,  rgba(0,178,169,1) 0%, rgba(28,0,101,1) 76.9% );
-   font-family: 'Roboto Condensed', sans-serif;
-   color: white;
- }
 
 .menu-top {
   list-style-type: none;
@@ -57,6 +47,16 @@
   width: 75%
   float: left;
 }
+
+body {
+   margin: 0;
+   text-align: center;
+   background-image: radial-gradient( circle 939px at 94.7% 50%,  rgba(0,178,169,1) 0%, rgba(28,0,101,1) 76.9% );
+   font-family: 'Roboto Condensed', sans-serif;
+   color: white;
+ }
+
+
 
 .menu-bottom {
   list-style-type: none;
