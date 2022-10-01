@@ -23,7 +23,7 @@
    grid-template-columns: auto 1fr 1fr 1 fr auto;
  }
 
-header:h1 {
+.welcome {
   color: white;
   font-size: 16px;
   width: 25%;
@@ -39,7 +39,7 @@ header:h1 {
    color: white;
  }
 
-.menu {
+.menu-top {
   list-style-type: none;
   text-align: center;
   padding-left: 0;
@@ -54,6 +54,21 @@ header:h1 {
   top: 0;
   width: 75%
   float: left;
+}
+
+.menu-bottom {
+  list-style-type: none;
+  text-align: center;
+  padding-left: 0;
+  text-decoration: none;
+  font-size: 17px;
+  margin: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow: hidden;
+  bottom: 0;
+  width: 75%
 }
 
 header:li {
