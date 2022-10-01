@@ -29,12 +29,12 @@
   width: 25%;
 }
 
-ul {
+.nav-top {
   width: 75%
   float: right;
 }
 
-ul li {
+.menu-top {
   display: inline-block;
   list-style-type: none;
   text-align: center;
