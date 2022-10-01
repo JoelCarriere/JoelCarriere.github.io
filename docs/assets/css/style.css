@@ -30,7 +30,7 @@
 }
 
 .nav-top {
-  width: 75%
+
   float: right;
 }
 
@@ -48,6 +48,7 @@
   overflow: hidden;
   position: fixed;
   top: 0;
+  width: 75%;
 }
 
 body {
