@@ -47,6 +47,9 @@ header:h1 {
   flex-wrap: wrap;
   justify-content: space-around;
   overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 header:li {
