@@ -50,6 +50,11 @@
   position: fixed;
   top: 0;
   width: 75%;
+  color: black;
+}
+
+.menu-top:hover {
+  color: white;
 }
 
 body {
