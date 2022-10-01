@@ -31,7 +31,7 @@
 }
 
 .nav-top {
-
+  width: 75%;
   float: right;
 }
 
@@ -92,7 +92,14 @@ nav:hover {
   color: black;
 }
 
+.toplogo-image{
+   width: 200px;
+   height: 200px;
+   border-radius: 25%;
+   overflow: hidden;
+   margin-top: -6px;
 
+}
 
 .button {
 
