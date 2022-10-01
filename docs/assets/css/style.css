@@ -15,23 +15,26 @@
  }
 
  header {
-   text-align: center;
+   overflow: auto;
+   clear: both;
    background-color: grey;
-   font-family: 'Bebas Neue', serif;
-   font-size: 2.5em;
-   color: white;
-   grid-template-columns: auto 1fr 1fr 1 fr auto;
    width: 100%
  }
 
 .welcome {
-  color: blue;
-  font-size: 16px;
-  width: 25%;
+  font-family: 'Bebas Neue', serif;
+  font-size: 2.5em;
+  color: white;
   float: left;
+  width: 25%;
 }
 
-.menu-top {
+.nav-top {
+  width: 75%
+  float: right;
+}
+
+ul li {
   list-style-type: none;
   text-align: center;
   padding-left: 0;
@@ -44,8 +47,6 @@
   overflow: hidden;
   position: fixed;
   top: 0;
-  width: 75%
-  float: left;
 }
 
 body {
@@ -73,13 +74,6 @@ body {
   width: 75%
 }
 
-header:li {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
 
 .nav {
   grid-column-start: 5;
