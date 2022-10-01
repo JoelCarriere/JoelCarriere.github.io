@@ -27,6 +27,7 @@
   color: white;
   float: left;
   width: 25%;
+  position: fixed;
 }
 
 .nav-top {
