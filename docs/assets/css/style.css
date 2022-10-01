@@ -20,6 +20,7 @@
    font-family: 'Bebas Neue', serif;
    font-size: 2.5em;
    color: white;
+   grid-template-columns: auto 1fr 1fr 1 fr auto;
  }
 
  body {
@@ -42,6 +43,8 @@
 }
 
 .nav {
+  grid-column-start: 5;
+  grid-column-end: 5;
   text-align: center;
   background-color: grey;
   font-family: 'Bebas Neue', serif;
@@ -103,6 +106,8 @@ h2 {
   margin:100px;
   float: center;
   border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #div_top_hypers {
