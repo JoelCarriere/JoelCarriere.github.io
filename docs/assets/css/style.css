@@ -122,6 +122,7 @@ nav:hover {
 
 .bottom-background {
   background-color: transparent;
+  color: white;
 }
 
 h1 {
@@ -134,7 +135,7 @@ h2 {
   font-family: "Lobster", sans-serif;
   font-size: 2em;
   color: white;
-  
+
 }
 
 
