@@ -32,7 +32,7 @@
 
 .nav-top {
   width: 75%;
-  float: right;
+  float: left;
 }
 
 .menu-top {
@@ -98,7 +98,7 @@ nav:hover {
    border-radius: 25%;
    overflow: hidden;
    margin-top: -6px;
-
+   background: transparent;
 }
 
 .button {
