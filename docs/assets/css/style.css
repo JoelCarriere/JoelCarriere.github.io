@@ -23,6 +23,11 @@
    grid-template-columns: auto 1fr 1fr 1 fr auto;
  }
 
+header:h1 {
+  color: white;
+  font-size: 16px;
+}
+
  body {
    margin: 0;
    text-align: center;
