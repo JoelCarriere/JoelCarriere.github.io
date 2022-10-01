@@ -31,7 +31,7 @@
  }
 
 .menu {
-  list-style: none;
+  list-style-type: none;
   text-align: center;
   padding-left: 0;
   text-decoration: none;
@@ -40,6 +40,15 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  overflow: hidden;
+}
+
+header:li {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .nav {
@@ -53,8 +62,10 @@
 }
 
 nav:hover {
-  transform: scale(1.25);
+  color: black;
 }
+
+
 
 .button {
 
