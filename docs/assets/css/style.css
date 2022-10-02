@@ -17,8 +17,7 @@
  header {
    overflow: auto;
    clear: both;
-   background-color: black;
-
+   background-color: grey;
    width: 100%
  }
 
