@@ -21,6 +21,8 @@
    width: 100%
    position: fixed;
    color: white;
+   top: 0;
+   
  }
 
 .welcome {
