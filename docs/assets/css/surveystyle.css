@@ -1,0 +1,56 @@
+body {
+  background-image: linear-gradient(90deg,#a500f7, #a1004f);
+  color: white;
+}
+
+h1 {
+margin: 1em auto;
+ font-family: Tahoma, serif;
+ text-align: center;
+}
+
+p  {
+  text-align: center;
+  font-family: Tahoma;
+  font-size: 1em;
+  margin: 1em auto;
+}
+
+label {
+  display: block;
+  font-family: Tahoma;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+  font-family: Tahoma, serif;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid white;
+}
+
+input, select, textarea {
+  margin: 1em auto;
+  width: 100%
+}
+
+input[type="submit"]{
+  margin: 1em auto;
+}
+
+button {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: white;
+  border-color: white;
+  min-width: 300px;
+  font-family: Tahoma, serif;
+}

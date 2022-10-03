@@ -1,0 +1,71 @@
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 id="title">
+    Survey for Joel
+  </h1>
+  <p id="description">
+    Hello, this survey is for my freeCodeCamp certification task in responsive web design.
+  </p>
+
+  <form id="survey-form">
+    <fieldset>
+      <label id="name-label" for="name">
+        Name </label>
+         <input type="text" id="name" placeholder="Name" required>
+
+
+      <label id="email-label" for="email">
+        Email </label>
+    <input type="email" id="email" placeholder="Email" required>
+
+<br>
+      <label id="number-label" for="number">
+        Age </label>
+    <input type="number" id="number" placeholder="age" min="18" max="100" >
+    </fieldset>
+
+    <fieldset>
+
+    <p>What option would you like to choose?<p>
+      <select id="dropdown">
+        <option value="">(select one)</option>
+        <option value="1">Option 1</option>
+        <option value="2">Option 2</option>
+       </select>
+
+      </fieldset>
+
+ <fieldset>
+   <p>Please choose yes or no to subscribe to my e-mails. Then choose one(or more) category you are interested in.</p>
+      <label>
+        <input name="user-select" type="radio" value="Yes" class="inline">Yes
+      </label>
+
+      <label>
+      <input type="radio" value="No" name="user-select" class="inline">
+      No
+      </label>
+
+      <label>
+      <input type="checkbox" value="artificial-intelligence" class="inline"> Artificial Intelligence
+      </label>
+
+      <label>
+        <input type="checkbox" value="machine-learning" class="inline"> Machine Learning
+      </label>
+    </fieldset>
+
+    <p> Provide any additional comments below</p>
+
+      <textarea id="Additional-comments" placeholder="Please put any additional comments here">
+        </textarea>
+
+        <button type="submit" id="submit">Submit</button>
+
+
+  </form>
+</body>
