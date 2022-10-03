@@ -22,7 +22,7 @@
    position: fixed;
    color: white;
    top: 0;
-   
+
  }
 
 .welcome {
@@ -64,7 +64,7 @@
 body {
    margin: 0;
    text-align: center;
-   background-image: radial-gradient( circle 939px at 94.7% 50%,  rgba(0,178,169,1) 0%, rgba(28,0,101,1) 76.9% );
+   background-color:#A1C2A8;
    font-family: 'Roboto Condensed', sans-serif;
    color: white;
  }
@@ -198,6 +198,12 @@ ul {
 li:hover {
   background-color: #555;
   color: grey;
+}
+
+hr {
+  width: 80%;
+  color: black;
+  height: 2px;
 }
 
 </style>
