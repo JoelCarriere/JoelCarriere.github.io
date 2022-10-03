@@ -147,6 +147,8 @@ nav:hover {
   float: right;
   width: 75%;
   text-align: justify;
+  margin-right: auto;
+  padding-right: 2em;
 }
 
 h1 {
@@ -202,7 +204,8 @@ li:hover {
 
 hr {
   width: 80%;
-  color: black;
+  color: white;
+  background-color: white;
   height: 2px;
 }
 
