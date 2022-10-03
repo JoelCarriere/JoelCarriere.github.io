@@ -141,6 +141,12 @@ nav:hover {
   color: white;
 }
 
+.main-preview {
+  float: right;
+  width: 75%;
+  text-align: justify;
+}
+
 h1 {
   font-family: "Lobster", sans-serif;
   font-size: 4em;
