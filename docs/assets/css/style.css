@@ -94,17 +94,22 @@ body {
 
 
 .nav {
-  grid-column-start: 5;
-  grid-column-end: 5;
   text-align: center;
   display: inline-block;
   list-style-type: none;
-
   text-decoration: none;
-  font-size: 2em;
+  font-size: 1em;
+  margin: auto;
+  padding: 1px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow: hidden;
+  width: 75%;
+  color: black;
+  float: left;
   background-color: rgb(241, 241, 241);
   font-family: 'Bebas Neue', serif;
-  font-size: 1em;
   color: white;
 }
 
