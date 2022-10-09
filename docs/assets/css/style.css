@@ -16,8 +16,7 @@
 
  header  {
     background-color: rgb(241, 241, 241);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: flex;
     justify-items: center;
     width: 100%;
     position: fixed;
