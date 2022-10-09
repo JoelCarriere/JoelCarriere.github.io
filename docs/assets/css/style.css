@@ -38,7 +38,7 @@
 
 .nav-top {
   background-color: rgb(241, 241, 241);
-  width: 100%;
+  width: 75%;
   float: left;
   position: fixed;
 }
@@ -56,7 +56,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   overflow: hidden;
-  width: 100%;
+  width: 75%;
   color: black;
   float: left;
   grid-column-start: 5;
