@@ -167,10 +167,11 @@ nav:hover {
   padding-right: 2em;
 }
 
-h1 {
+.h1 {
   font-family: "Lobster", sans-serif;
-  font-size: 4em;
+  font-size: 1em;
   color: black;
+  width:25%;
 }
 
 h2 {
