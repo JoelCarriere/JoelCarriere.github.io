@@ -28,6 +28,7 @@ nav {
   height: 50px;
   font-family: 'Bebas Neue', serif;
   color: white;
+  float: right;
 }
 
 nav > ul {
