@@ -97,7 +97,12 @@ body {
   grid-column-start: 5;
   grid-column-end: 5;
   text-align: center;
-  background-color: grey;
+  display: inline-block;
+  list-style-type: none;
+
+  text-decoration: none;
+  font-size: 2em;
+  background-color: rgb(241, 241, 241);
   font-family: 'Bebas Neue', serif;
   font-size: 1em;
   color: white;
