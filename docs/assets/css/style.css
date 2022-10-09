@@ -45,6 +45,20 @@ body {
    color: black;
  }
 
+ h1 {
+   font-family: "Lobster", sans-serif;
+   font-size: 1em;
+   color: black;
+   width:25%;
+ }
+
+ h2 {
+   font-family: "Lobster", sans-serif;
+   font-size: 2em;
+   color: white;
+ 
+ }
+
 .welcome {
   background-color: rgb(241, 241, 241);
   font-family: 'Bebas Neue', serif;
@@ -180,19 +194,7 @@ nav:hover {
   padding-right: 2em;
 }
 
-h1 {
-  font-family: "Lobster", sans-serif;
-  font-size: 1em;
-  color: black;
-  width:25%;
-}
 
-h2 {
-  font-family: "Lobster", sans-serif;
-  font-size: 2em;
-  color: white;
-
-}
 
 
 .headshot-img {
