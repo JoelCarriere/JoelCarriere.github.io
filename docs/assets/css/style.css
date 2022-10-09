@@ -21,6 +21,7 @@
     height: 50px;
     position: fixed;
     font-size: 1.5em;
+
 }
 
 nav {
@@ -50,7 +51,7 @@ body {
  h1 {
    font-family: "Lobster", sans-serif;
    font-size: 1em;
-   color: black;
+   color: orange;
    width:25%;
  }
 
