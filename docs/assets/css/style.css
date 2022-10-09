@@ -17,7 +17,7 @@
  header {
    overflow: auto;
    clear: both;
-   background-color: #EEB34B;
+   background-color: #F0F0F0;
    width: 100%
    position: fixed;
    color: white;
@@ -65,7 +65,7 @@
 body {
    margin: 0;
    text-align: center;
-   background-color: #1A1A1A;
+   background-color: #C2E5E2;
    font-family: 'Roboto Condensed', sans-serif;
    color: white;
  }
