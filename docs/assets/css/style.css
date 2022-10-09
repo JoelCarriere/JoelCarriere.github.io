@@ -55,6 +55,7 @@
   float: left;
   grid-column-start: 5;
   grid-column-end: 5;
+  position: fixed;
 }
 
 .menu-top:hover {
