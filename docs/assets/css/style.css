@@ -32,13 +32,13 @@
   font-size: 2.5em;
   color: black;
   float: left;
-  width: 25%;
+  width: 100%;
   position: fixed;
 }
 
 .nav-top {
   background-color: rgb(241, 241, 241);
-  width: 75%;
+  width: 100%;
   float: left;
   position: fixed;
 }
@@ -51,11 +51,12 @@
   text-decoration: none;
   font-size: 2em;
   margin: auto;
+  padding: 1px;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   overflow: hidden;
-  width: 75%;
+  width: 100%;
   color: black;
   float: left;
   grid-column-start: 5;
