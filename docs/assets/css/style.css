@@ -37,6 +37,14 @@ nav > ul {
   color: orange;
 }
 
+body {
+   margin: 0;
+   text-align: center;
+   background-color: #C2E5E2;
+   font-family: 'Roboto Condensed', sans-serif;
+   color: black;
+ }
+
 .welcome {
   background-color: rgb(241, 241, 241);
   font-family: 'Bebas Neue', serif;
@@ -78,13 +86,7 @@ nav > ul {
   color: white;
 }
 
-body {
-   margin: 0;
-   text-align: center;
-   background-color: #C2E5E2;
-   font-family: 'Roboto Condensed', sans-serif;
-   color: white;
- }
+
 
 
 
