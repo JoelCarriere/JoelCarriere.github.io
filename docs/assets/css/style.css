@@ -30,7 +30,7 @@ nav {
   height: 50px;
   font-family: 'Bebas Neue', serif;
   color: white;
-  float: right;
+  float: auto;
   font-size: 1.5em;
 }
 
@@ -51,14 +51,14 @@ body {
  h1 {
    font-family: "Lobster", sans-serif;
    font-size: 1em;
-   color: orange;
-   width:25%;
+   color: blue;
+   width:25vw;
  }
 
  h2 {
    font-family: "Lobster", sans-serif;
    font-size: 2em;
-   color: white;
+   color: #646A6A;
 
  }
 
