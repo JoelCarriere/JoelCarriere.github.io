@@ -8,30 +8,29 @@
 </head>
 
 <body>
-    <nav>
-      <a href="#">Guelph Lakes Golf and Country Club</a>
+  <nav>
+    <a href="#">Guelph Lakes Golf and Country Club</a>
+    <div>
+      <a href="#">Rates</a>
       <div>
-        <a href="#">Rates</a>
-        <div>
-          <a href="greenfees.html">Green Fees</a>
-          <a href="monthlyspecials.html">Monthly Specials</a>
-          <a href="preferredplayers.html">Preferred Players Packages</a>
-        </div>
+        <!-- Removed links to Green Fees, Monthly Specials, and Preferred Players Packages -->
       </div>
-      <a href="thecourse.html">The Course</a>
-      <a href="directions.html">Directions</a>
-    </nav>
-    <h1>Welcome to Guelph Lakes Golf and Country Club</h1>
-    <p>We are a beautiful 18-hole golf course located in the rolling hills of the countryside. Our course is well-maintained and perfect for golfers of all skill levels. We also have a pro shop and a clubhouse with a restaurant and bar.</p>
-    <h2>Book a Tee Time</h2>
-    <form>
-      <label for="date">Date:</label><br>
-      <input type="date" id="date" name="date"><br>
-      <label for="time">Time:</label><br>
-      <input type="time" id="time" name="time"><br>
-      <label for="players">Number of Players:</label><br>
-      <input type="number" id="players" name="players"><br><br>
-      <input type="submit" value="Book Tee Time">
-    </form> 
-  </body>
-  </html>
+    </div>
+    <a href="thecourse.html">The Course</a>
+    <a href="directions.html">Directions</a>
+  </nav>
+  <h1>Welcome to Guelph Lakes Golf and Country Club</h1>
+  <p>We are a beautiful 18-hole golf course located in the rolling hills of the countryside. Our course is well-maintained and perfect for golfers of all skill levels. We also have a pro shop and a clubhouse with a restaurant and bar.</p>
+  <h2>Book a Tee Time</h2>
+  <form>
+    <label for="date">Date:</label><br>
+    <input type="date" id="date" name="date"><br>
+    <label for="time">Time:</label><br>
+    <input type="time" id="time" name="time"
+           min="06:00" max="19:00" step="12"><br>
+    <label for="players">Number of Players:</label><br>
+    <input type="number" id="players" name="players"><br><br>
+    <input type="submit" value="Book Tee Time">
+  </form> 
+</body>
+</html>
