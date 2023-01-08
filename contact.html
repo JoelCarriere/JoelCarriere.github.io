@@ -1,26 +1,38 @@
-<!DOCTYPE html>
-
 <html>
-  <head>
-    <title>Green Meadows Golf Course</title>
-    <style>
+<head>
+  <title>Green Meadows Golf Course</title>
+  <style>
 body {
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
-  color: #333333;
+  color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #363636;
+  color: white;
+  padding: 10px 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
 }
 
 h1 {
   font-size: 36px;
   text-align: center;
   margin: 20px 0;
-  color: #006699;
+  color: #84b732;
 }
 
 h2 {
   font-size: 24px;
   margin: 20px 0;
-  color: #006699;
+  color: #84b732;
 }
 
 p {
@@ -52,7 +64,7 @@ input[type="text"], input[type="number"], input[type="date"], input[type="time"]
 
 input[type="submit"] {
   width: 100%;
-  background-color: #006699;
+  background-color: #84b732;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -62,13 +74,19 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #003366;
+  background-color: #6a9f27;
 }
 
-    </style>
-  </head>
-  
+  </style>
+</head>
 <body>
+  <nav>
+    <a href="#">Green Meadows Golf Course</a>
+    <a href="greenfees.html">Green Fees</a>
+    <a href="thecourse.html">The Course</a>
+    <a href="directions.html">Directions</a>
+    <a href="monthlyspecials.html">Monthly Specials</a>
+  </nav>
   <h1>Welcome to Green Meadows Golf Course</h1>
   <p>We are a beautiful 18-hole golf course located in the rolling hills of the countryside. Our course is well-maintained and perfect for golfers of all skill levels. We also have a pro shop and a clubhouse with a restaurant and bar.</p>
   <h2>Book a Tee Time</h2>
@@ -83,4 +101,3 @@ input[type="submit"]:hover {
   </form> 
 </body>
 </html>
-
