@@ -48,7 +48,7 @@ nav > ul {
       /* Define the left side (image) */
       .left-side {
         width: 50%; /* Take up half of the container */
-        background-image: url('your-image-url-here.jpg'); /* Add the image */
+        background-image: url('/docs/assets/img/headshot2.jpg'); /* Add the image */
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover; /* Cover the entire side */
       }
