@@ -51,7 +51,6 @@ nav > ul {
         background-image: url('/docs/assets/img/headshot2.jpg'); /* Add the image */
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover; /* Cover the entire side */
-        position: fixed;
         transform: rotate(90deg); /* Rotate the image 90 degrees to the right */
         z-index: -1; /* Give the image a lower z-index */
 
