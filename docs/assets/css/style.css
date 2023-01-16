@@ -134,8 +134,12 @@ body {
   color: white;
 }
 
-
-
+      /* Media query for mobile devices */
+      @media (max-width: 600px) {
+        /* Change the flex-direction of the container to column */
+        .container {
+          flex-direction: column;
+        }
 
 
 .menu-bottom {
