@@ -1,0 +1,103 @@
+<html>
+<head>
+  <title>Green Meadows Golf Course</title>
+  <style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #363636;
+  color: white;
+  padding: 10px 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  margin: 20px 0;
+  color: #84b732;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 20px 0;
+  color: #84b732;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+input[type="text"], input[type="number"], input[type="date"], input[type="time"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 8px 0;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #84b732;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #6a9f27;
+}
+
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#">Green Meadows Golf Course</a>
+    <a href="greenfees.html">Green Fees</a>
+    <a href="thecourse.html">The Course</a>
+    <a href="directions.html">Directions</a>
+    <a href="monthlyspecials.html">Monthly Specials</a>
+  </nav>
+  <h1>Welcome to Green Meadows Golf Course</h1>
+  <p>We are a beautiful 18-hole golf course located in the rolling hills of the countryside. Our course is well-maintained and perfect for golfers of all skill levels. We also have a pro shop and a clubhouse with a restaurant and bar.</p>
+  <h2>Book a Tee Time</h2>
+  <form>
+    <label for="date">Date:</label><br>
+    <input type="date" id="date" name="date"><br>
+    <label for="time">Time:</label><br>
+    <input type="time" id="time" name="time"><br>
+    <label for="players">Number of Players:</label><br>
+    <input type="number" id="players" name="players"><br><br>
+    <input type="submit" value="Book Tee Time">
+  </form> 
+</body>
+</html>
