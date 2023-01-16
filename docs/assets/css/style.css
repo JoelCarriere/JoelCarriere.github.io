@@ -55,7 +55,7 @@ nav > ul {
         transform: rotate(90deg); /* Rotate the image 90 degrees to the right */
         z-index: -1; /* Give the image a lower z-index */
 
-        height: 80%; /* Set the height of the image to 80% of the parent container */
+        height: 100%; /* Set the height of the image to 80% of the parent container */
         padding: 10px; /* Add padding of 10px around the image */
       }
       
