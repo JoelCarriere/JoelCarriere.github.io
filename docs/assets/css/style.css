@@ -40,6 +40,25 @@ nav > ul {
   color: orange;
 }
 
+      /* Define a container for the layout */
+      .container {
+        display: flex; /* Use flexbox for layout */
+      }
+      
+      /* Define the left side (image) */
+      .left-side {
+        width: 50%; /* Take up half of the container */
+        background-image: url('your-image-url-here.jpg'); /* Add the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Cover the entire side */
+      }
+      
+      /* Define the right side (text) */
+      .right-side {
+        width: 50%; /* Take up the other half of the container */
+        overflow-y: scroll; /* Allow the text to be scrolled */
+      }
+
 body {
    margin: 0;
    text-align: center;
