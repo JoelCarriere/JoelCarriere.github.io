@@ -35,11 +35,11 @@ nav {
   font-size: 1em;
 }
 
-nav > ul {
+/*nav > ul {
   display: flex;
   justify-content: space-evenly;
   color: black;
-}
+} */
 
       /* Define a container for the layout */
       .container {
@@ -137,12 +137,7 @@ body {
   color: white;
 }
 
-      /* Media query for mobile devices */
-      @media (max-width: 600px) {
-        /* Change the flex-direction of the container to column */
-        .container {
-          flex-direction: column;
-        }
+
 
 
 .menu-bottom {
