@@ -38,7 +38,7 @@ nav {
 nav > ul {
   display: flex;
   justify-content: space-evenly;
-  color: orange;
+  color: black;
 }
 
       /* Define a container for the layout */
@@ -53,6 +53,7 @@ nav > ul {
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover; /* Cover the entire side */
         position: fixed;
+        transform: rotate(90deg); /* Rotate the image 90 degrees to the right */
         z-index: -1; /* Give the image a lower z-index */
         width: 80%; /* Set the width of the image to 80% of the parent container */
         height: 80%; /* Set the height of the image to 80% of the parent container */
