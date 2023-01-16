@@ -1,8 +1,5 @@
-<html>
-<head>
-  <title>Green Meadows Golf Course</title>
-  <style>
-body {
+<style>
+    body {
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
   color: black;
@@ -75,29 +72,31 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #6a9f27;
+nav div {
+  position: relative;
+}
+
+nav div:hover div {
+  display: block;
+}
+
+nav div div {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  background-color: #363636;
+  padding: 10px 0;
+}
+
+nav div div a {
+  display: block;
+  padding: 10px 20px;
+}
+
+nav div div a:hover {
+  background-color: #6a9f27;
 }
 
   </style>
-</head>
-<body>
-  <nav>
-    <a href="#">Green Meadows Golf Course</a>
-    <a href="greenfees.html">Green Fees</a>
-    <a href="thecourse.html">The Course</a>
-    <a href="directions.html">Directions</a>
-    <a href="monthlyspecials.html">Monthly Specials</a>
-  </nav>
-  <h1>Welcome to Green Meadows Golf Course</h1>
-  <p>We are a beautiful 18-hole golf course located in the rolling hills of the countryside. Our course is well-maintained and perfect for golfers of all skill levels. We also have a pro shop and a clubhouse with a restaurant and bar.</p>
-  <h2>Book a Tee Time</h2>
-  <form>
-    <label for="date">Date:</label><br>
-    <input type="date" id="date" name="date"><br>
-    <label for="time">Time:</label><br>
-    <input type="time" id="time" name="time"><br>
-    <label for="players">Number of Players:</label><br>
-    <input type="number" id="players" name="players"><br><br>
-    <input type="submit" value="Book Tee Time">
-  </form> 
-</body>
-</html>
