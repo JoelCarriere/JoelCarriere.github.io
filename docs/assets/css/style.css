@@ -204,7 +204,7 @@ nav:hover {
    border-radius: 25%;
    overflow: hidden;
    margin-top: -6px;
-
+  float: right;
 }
 
 .top-background {
