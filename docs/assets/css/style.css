@@ -18,7 +18,7 @@
     background-color: rgb(241, 241, 241);
     display: flex;
     top: 0; /* Position the header at the top of the page */
-    width: 100%;
+    width: 50%;
     height: 50px;
     position: fixed;
     font-size: 1.5em;
@@ -53,12 +53,14 @@ nav > ul {
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover; /* Cover the entire side */
         /*transform: rotate(180deg);  Rotate the image 90 degrees to the right */
+        z-index: -1; /* Give the image a lower z-index */
       }
       
       /* Define the right side (text) */
       .right-side {
         width: 50%; /* Take up the other half of the container */
         overflow-y: scroll; /* Allow the text to be scrolled */
+        z-index: -1; /* Give the image a lower z-index */
       }
 
 body {
