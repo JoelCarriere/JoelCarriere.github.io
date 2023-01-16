@@ -218,8 +218,8 @@ nav:hover {
 }
 
 .main-preview {
-  float: right;
-  width: 75%;
+  float: center;
+  width: 100%;
   text-align: justify;
   margin-right: auto;
   padding-right: 2em;
