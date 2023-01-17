@@ -43,6 +43,7 @@ nav > ul {
       /* Define a container for the layout */
       .container {
         display: flex; /* Use flexbox for layout */
+        margin-top: 50px; /* The height of the header */
       }
       
       /* Define the left side (image) */
@@ -61,6 +62,7 @@ nav > ul {
         width: 50%; /* Take up the other half of the container */
         overflow-y: scroll; /* Allow the text to be scrolled */
         z-index: -1; /* Give the image a lower z-index */
+        padding: 2%;
       }
 
 body {
