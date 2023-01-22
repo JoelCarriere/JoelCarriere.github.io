@@ -50,6 +50,7 @@ nav > ul {
       /* Define the left side (image) */
       .left-side {
         width: 50vw; /* Take up half of the container */
+        height: auto;
         background-image: url('/docs/assets/img/headshot2.jpg'); /* Add the image */
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: contain; /* Cover the entire side */
