@@ -49,11 +49,10 @@ nav > ul {
       
       /* Define the left side (image) */
       .left-side {
-        width: 50vw; /* Take up half of the container */
-        height: auto;
-        background-image: url('/docs/assets/img/headshot2.jpg'); /* Add the image */
+        width: 50%; /* Take up half of the container */
+       /* background-image: url('/docs/assets/img/headshot2.jpg'); /* Add the image */
         background-repeat: no-repeat; /* Do not repeat the image */
-        background-size: contain; /* Cover the entire side */
+        background-size: cover; /* Cover the entire side */
         transform: rotate(90deg); /* Rotate the image 90 degrees to the right */
         z-index: -1; /* Give the image a lower z-index */
 
@@ -61,7 +60,7 @@ nav > ul {
       
       /* Define the right side (text) */
       .right-side {
-        width: 50vw; /* Take up the other half of the container */
+        width: 50%; /* Take up the other half of the container */
         overflow-y: scroll; /* Allow the text to be scrolled */
         z-index: -1; /* Give the image a lower z-index */
       }
