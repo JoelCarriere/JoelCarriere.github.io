@@ -44,6 +44,7 @@ nav > ul {
       .container {
         display: flex; /* Use flexbox for layout */
         margin-top: 50px; /* The height of the header */
+        width: 100vw;
       }
       
       /* Define the left side (image) */
