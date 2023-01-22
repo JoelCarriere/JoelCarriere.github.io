@@ -220,6 +220,15 @@ nav:hover {
    margin-top: -6px;
 }
 
+.top-logo-image{
+  width: 46px;
+  height: 46px;
+  border-radius: 25%;
+  overflow: hidden;
+  margin-top: -6px;
+  float: center;
+}
+
 .top-background {
   background-color: transparent;
   margin: 0;
