@@ -56,11 +56,11 @@ h2 {
 }
 
 .headshot-img {
-  height: auto;
-  max-width: 100%;
-  margin: 100px auto;
+  height: 600px;
+  margin: 100px;
+  float: center;
   border-radius: 50%;
-  transform: none;
+  transform: none; /* Reset rotation */
 }
 
 #div_top_hypers {
@@ -114,23 +114,33 @@ h2 {
     /* Do not repeat the image */
     background-size: cover;
     /* Cover the entire side */
-    transform: rotate(90deg);
-    /* Rotate the image 90 degrees to the right */
     z-index: -1;
     /* Give the image a lower z-index */
   }
-
   /* Define the right side (text) */
   .right-side {
-    width: 50%;
-    /* Take up the other half of the container */
-    overflow-y: scroll;
-    /* Allow the text to be scrolled */
-    z-index: -1;
-    /* Give the image a lower z-index */
+    width: 50%; /* Take up the other half of the container */
+    overflow-y: scroll; /* Allow the text to be scrolled */
+    z-index: -1; /* Give the image a lower z-index */
     padding: 2%;
   }
-}
+  
+  /* Mobile Styles */
+  @media (max-width: 767px) {
+    .headshot-img {
+      height: auto; /* Reset height to auto */
+      margin: 50px; /* Adjust margin for mobile devices */
+    }
+    
+    .logo-image {
+      width: 30px; /* Adjust logo size for mobile devices */
+      height: 30px;
+    }
+  }
+
+
+   
+
       
 
 body {
