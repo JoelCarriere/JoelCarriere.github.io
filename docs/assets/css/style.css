@@ -125,8 +125,20 @@ h2 {
     /* Take up the other half of the container */
     overflow-y: scroll; /* Allow the text to be scrolled */
         z-index: -1; /* Give the image a lower z-index */
-        padding: 2%;
       }
+
+      @media only screen and (min-width: 600px) {
+        .left-side {
+          background-size: cover;
+        }
+      }
+
+      @media only screen and (max-width: 600px) {
+        .left-side {
+          background-size: contain;
+        }
+      }
+      
 
 body {
    margin: 0;
@@ -268,6 +280,16 @@ nav:hover {
    border-radius: 25%;
    overflow: hidden;
    margin-top: -6px;
+}
+
+.top-logo-image{
+  width: 46px;
+  height: 46px;
+  border-radius: 25%;
+  overflow: hidden;
+  margin-top: -6px;
+  margin-bottom: 10px;
+  float: center;
 }
 
 .top-background {
