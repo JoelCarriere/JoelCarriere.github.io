@@ -56,10 +56,11 @@ h2 {
 }
 
 .headshot-img {
-  height: 600px;
-  margin: 100px;
-  float: center;
+  height: auto;
+  max-width: 100%;
+  margin: 100px auto;
   border-radius: 50%;
+  transform: none;
 }
 
 #div_top_hypers {
@@ -123,21 +124,13 @@ h2 {
   .right-side {
     width: 50%;
     /* Take up the other half of the container */
-    overflow-y: scroll; /* Allow the text to be scrolled */
-        z-index: -1; /* Give the image a lower z-index */
-      }
-
-      @media only screen and (min-width: 600px) {
-        .left-side {
-          background-size: cover;
-        }
-      }
-
-      @media only screen and (max-width: 600px) {
-        .left-side {
-          background-size: contain;
-        }
-      }
+    overflow-y: scroll;
+    /* Allow the text to be scrolled */
+    z-index: -1;
+    /* Give the image a lower z-index */
+    padding: 2%;
+  }
+}
       
 
 body {
