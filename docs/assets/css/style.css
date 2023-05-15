@@ -125,20 +125,7 @@ h2 {
     padding: 2%;
   }
 
-  /* Mobile Styles */
-  @media (max-width: 767px) {
-    .headshot-img {
-      max-width: 100%; /* Set the maximum width of the image to 100% of the container */
-      height: auto; /* Allow the height to adjust proportionally */
-      margin-top: 20px; /* Adjust the margin-top for spacing */
-      margin-bottom: 20px; /* Adjust the margin-bottom for spacing */
-    }
 
-    .logo-image {
-      width: 30px; /* Adjust logo size for mobile devices */
-      height: 30px;
-    }
-  }
 
 
 
