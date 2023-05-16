@@ -1,12 +1,20 @@
-@import url('http://fonts.googleapis.com/css?family=PT+Sans');
-@import url('http://fonts.googleapis.com/css?family=Cinzel');
-@import url('http://fonts.googleapis.com/css?family=Roboto+Condensed');
-@import url('http://fonts.googleapis.com/css?family=Fondamento');
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+@import url(http://fonts.googleapis.com/css?family=Cinzel);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
+@import url(http://fonts.googleapis.com/css?family=Fondamento);
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('//fonts.googleapis.com/css?family=Lobster');
+
+<link href="//fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 
 <style>
 /* Common styles for all devices */
+head {
+  display: none;
+  background-color: transparent;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
 body {
   margin: 0;
   text-align: center;
@@ -15,22 +23,21 @@ body {
   color: black;
 }
 
-h1, h2, .toplogo {
-  font-family: 'Lobster', sans-serif;
-}
-
 h1 {
+  font-family: "Lobster", sans-serif;
   font-size: 1em;
   color: blue;
   width: 25vw;
 }
 
 h2 {
+  font-family: "Lobster", sans-serif;
   font-size: 2em;
   color: #646A6A;
 }
 
 .toplogo {
+  font-family: "Lobster", sans-serif;
   font-size: 1em;
   color: black;
   width: 25vw;
@@ -40,7 +47,7 @@ h2 {
   transform: scale(1.1);
 }
 
-.logo-image, .headshot-img, .top-logo-image {
+.logo-image {
   width: 46px;
   height: 46px;
   border-radius: 25%;
@@ -51,7 +58,14 @@ h2 {
 .headshot-img {
   height: 600px;
   margin: 100px;
+  float: center;
   border-radius: 50%;
+  transform: none; /* Reset rotation */
+}
+
+#div_top_hypers {
+  background-color: transparent;
+  display: inline;
 }
 
 /* Desktop Styles */
@@ -77,25 +91,9 @@ h2 {
     font-size: 1em;
   }
 
-  nav > ul {
+  nav>ul {
     display: flex;
     justify-content: space-evenly;
-  }
-
-  #intro-photo {
-    min-height: 10vh;
-    width: 100%;
-    background-image: url('/docs/assets/img/headshot2.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
-  /* Define a container for the layout */
-  .top-container {
-    display: flex;
-    /* Use flexbox for layout */
-    margin-top: 50px;
-    /* The height of the header */
   }
 
   /* Define a container for the layout */
@@ -119,7 +117,6 @@ h2 {
     z-index: -1;
     /* Give the image a lower z-index */
   }
-
   /* Define the right side (text) */
   .right-side {
     width: 50%; /* Take up the other half of the container */
@@ -127,66 +124,342 @@ h2 {
     z-index: -1; /* Give the image a lower z-index */
     padding: 2%;
   }
+
+
+
+
+
+
+  
+
+body {
+   margin: 0;
+   text-align: center;
+   background-color: #C2E5E2;
+   font-family: 'Roboto Condensed', sans-serif;
+   color: black;
+ }
+
+ h1 {
+   font-family: "Lobster", sans-serif;
+   font-size: 1em;
+   color: blue;
+   width:25vw;
+ }
+
+ h2 {
+   font-family: "Lobster", sans-serif;
+   font-size: 2em;
+   color: #646A6A;
+
+ }
+
+ .toplogo {
+   font-family: "Lobster", sans-serif;
+   font-size: 1em;
+   color: black;
+   width: 25vw;
+ }
+
+.welcome {
+  background-color: rgb(241, 241, 241);
+  font-family: 'Bebas Neue', serif;
+  font-size: 2.5em;
+  color: black;
+  float: left;
+  width: 100%;
+  position: fixed;
+}
+
+.nav-top {
+  background-color: rgb(241, 241, 241);
+  width: 75%;
+  float: left;
+  position: fixed;
+}
+
+.menu-top {
+  background-color: rgb(241, 241, 241);
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2em;
+  margin: auto;
+  padding: 1px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow: hidden;
+  width: 75%;
+  color: black;
+  float: left;
+  grid-column-start: 5;
+  grid-column-end: 5;
+}
+
+.menu-top:hover {
+  color: white;
+}
+
+
+
+
+.menu-bottom {
+  list-style-type: none;
+  text-align: center;
+  padding-left: 0;
+  text-decoration: none;
+  font-size: 17px;
+  margin: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow: hidden;
+  bottom: 0;
+  width: 75%
+}
+
+
+.nav {
+  text-align: center;
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 1em;
+  margin: auto;
+  padding: 1px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow: hidden;
+  width: 100%;
+  color: black;
+  float: right;
+  background-color: rgb(241, 241, 241);
+  font-family: 'Lato', serif;
+  color: white;
+}
+
+nav:hover {
+  color: black;
+}
+
+.toplogo-image{
+   width: 200px;
+   height: 200px;
+   border-radius: 25%;
+   overflow: hidden;
+   margin-top: -6px;
+
+}
+
+.button {
+
+}
+
+
+.button:hover {
+  transform: scale(1.1);
+
+}
+
+
+
+.logo-image{
+   width: 46px;
+   height: 46px;
+   border-radius: 25%;
+   overflow: hidden;
+   margin-top: -6px;
+}
+
+.top-logo-image{
+  width: 46px;
+  height: 46px;
+  border-radius: 25%;
+  overflow: hidden;
+  margin-top: -6px;
+  margin-bottom: 10px;
+  float: center;
+}
+
+.top-background {
+  background-color: transparent;
+  margin: 0;
+  text-align: center;
+  font-family: Lobster;
+}
+
+.bottom-background {
+  background-color: transparent;
+  color: white;
+}
+
+.main-preview {
+  float: center;
+  width: 100%;
+  text-align: justify;
+  margin-right: auto;
+  padding-right: 2em;
+}
+
+
+
+
+.headshot-img {
+  height: 600px;
+  margin:100px;
+  float: center;
+  border-radius: 50%;
+
+}
+
+#div_top_hypers {
+    background-color: transparent;
+    display:inline;
+}
+
+li{
+    display: inline;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: transparent;
+  opacity: 50%;
+  float: right;
+}
+
+/* Change the link color on hover */
+li:hover {
+  background-color: #555;
+  color: grey;
+}
+
+hr {
+  width: 80%;
+  color: white;
+  background-color: white;
+  height: 2px;
+  border-color: white;
+}
+
+#intro-photo {
+  min-height: 10vh;
+  width: 100%;
+  background-image: url('/docs/assets/img/headshot2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Define a container for the layout */
+.top-container {
+  display: flex;
+  /* Use flexbox for layout */
+  margin-top: 50px;
+  /* The height of the header */
+}
+
+/* Define a container for the layout */
+.container {
+  display: flex;
+  /* Use flexbox for layout */
+  margin-top: 50px;
+  /* The height of the header */
+}
+
+/* Define the left side (image) */
+.left-side {
+  width: 50%;
+  /* Take up half of the container */
+  background-image: url('/docs/assets/img/headshot2.jpg');
+  /* Add the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Cover the entire side */
+  z-index: -1;
+  /* Give the image a lower z-index */
+}
+
+/* Define the right side (text) */
+.right-side {
+  width: 50%; /* Take up the other half of the container */
+  overflow-y: auto; /* Allow the text to auto format */
+  z-index: -1; /* Give the image a lower z-index */
+  padding: 2%;
+}
 }
 
 
 /* Mobile Phone Styles */
 @media (max-width: 767px) {
-  header {
-    background-color: rgb(241, 241, 241);
-    display: flex;
-    top: 0;
-    /* Position the header at the top of the page */
-    width: 100%;
-    height: 50px;
-    position: fixed;
-    font-size: 1.5em;
-  }
+header {
+  background-color: rgb(241, 241, 241);
+  display: flex;
+  top: 0;
+  /* Position the header at the top of the page */
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  font-size: 1.5em;
+}
 
-  nav {
-    width: 100%;
-    height: 50px;
-    font-family: 'Lato', serif;
-    color: white;
-    font-size: 1em;
-  }
+nav {
+  width: 100%;
+  height: 50px;
+  font-family: 'Lato', serif;
+  color: white;
+  font-size: 1em;
+}
 
-  nav > ul {
-    display: flex;
-    justify-content: space-evenly;
-  }
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+}
 
-  /* Define a container for the layout */
-  .container {
-    display: flex;
-    /* Use flexbox for layout */
-    margin-top: 50px;
-    /* The height of the header */
-  }
+/* Define a container for the layout */
+.container {
+  display: flex;
+  /* Use flexbox for layout */
+  margin-top: 50px;
+  /* The height of the header */
+}
 
-  /* Define the left side (image) */
-  .left-side {
-    width: 100%;
-    /* Take up full width of the container */
-    background-image: url('/docs/assets/img/headshot2.jpg');
-    /* Add the image */
-    background-repeat: no-repeat;
-    /* Do not repeat the image */
-    background-size: cover;
-    /* Cover the entire side */
-    z-index: -1;
-    /* Give the image a lower z-index */
-  }
+/* Define the left side (image) */
+.left-side {
+  width: 100%;
+  /* Take up full width of the container */
+  background-image: url('/docs/assets/img/headshot2.jpg');
+  /* Add the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Cover the entire side */
+  z-index: -1;
+  /* Give the image a lower z-index */
+}
 
-  /* Define the right side (text) */
-  .right-side {
-    width: 100%; /* Take up full width of the container */
-    overflow-y: auto; /* Allow the text to auto format */
-    z-index: -1; /* Give the image a lower z-index */
-    padding: 2%;
-  }
+/* Define the right side (text) */
+.right-side {
+  width: 100%; /* Take up full width of the container */
+  overflow-y: auto; /* Allow the text to auto format */
+  z-index: -1; /* Give the image a lower z-index */
+  padding: 2%;
+}
 }
 
 
 </style>
 
+
+
+</style>
