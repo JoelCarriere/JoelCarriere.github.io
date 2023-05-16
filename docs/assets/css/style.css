@@ -82,6 +82,22 @@ h2 {
     justify-content: space-evenly;
   }
 
+  #intro-photo {
+    min-height: 10vh;
+    width: 100%;
+    background-image: url('/docs/assets/img/headshot2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  /* Define a container for the layout */
+  .top-container {
+    display: flex;
+    /* Use flexbox for layout */
+    margin-top: 50px;
+    /* The height of the header */
+  }
+
   /* Define a container for the layout */
   .container {
     display: flex;
