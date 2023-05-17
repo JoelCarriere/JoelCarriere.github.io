@@ -218,6 +218,7 @@ nav:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  z-index: -1;
 }
 
 
@@ -337,7 +338,8 @@ hr {
 .banner-side {
   width: 50%;
   /* Take up half of the container */
-
+  box-sizing: border-box;
+  background: url('/docs/assets/img/headshot2.jpg');
   background-repeat: no-repeat;
   /* Do not repeat the image */
   background-size: cover;
@@ -397,7 +399,8 @@ nav > ul {
 .banner-side {
   width: 100%;
   /* Take up full width of the container */
-
+  box-sizing: border-box;
+  background: url('/docs/assets/img/headshot2.jpg');
   background-repeat: no-repeat;
   /* Do not repeat the image */
   background-size: cover;
