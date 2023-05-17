@@ -214,6 +214,10 @@ nav:hover {
   text-align: justify;
   margin-right: auto;
   padding-right: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 
@@ -276,15 +280,14 @@ hr {
   background-color: #fff;
 }
 
-/* Define a container for the layout */
+
 .top-container {
   display: flex;
-  /* Use flexbox for layout */
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
   margin-top: 50px;
-  /* The height of the header */
 }
-
-
 
 
 
