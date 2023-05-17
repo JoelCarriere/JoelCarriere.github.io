@@ -331,6 +331,7 @@ hr {
   /* Use flexbox for layout */
   margin-top: 50px;
   /* The height of the header */
+  overflow-y: scroll;
 }
 
 /* Define the left side (image) */
@@ -350,7 +351,6 @@ hr {
 .right-side {
   width: 46%; /* Take up the other half of the container */
   overflow-y: auto; /* Allow the text to auto format */
-  overflow-x: hidden;
   z-index: -1; /* Give the image a lower z-index */
   padding: 4%;
 }
