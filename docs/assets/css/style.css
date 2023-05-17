@@ -277,7 +277,7 @@ hr {
   height: 100px;
   box-sizing: border-box;
   background: url('/docs/assets/img/headshot2.jpg');
-  transform: rotate(90deg);
+  transform: rotate(0deg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
