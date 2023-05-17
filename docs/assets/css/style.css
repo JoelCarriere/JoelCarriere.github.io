@@ -55,18 +55,17 @@ h2 {
   margin-top: -6px;
 }
 
-.headshot-img {
+.banner {
   width: 100%;
-}
-
-#banner-container {
-  width: 100%;
-  overflow: hidden;
-}
-
-#banner-wrapper {
-  width: 100%;
-  margin: 0 auto;
+  height: 100px;
+  box-sizing: border-box;
+  background: url('/docs/assets/img/headshot2.jpg');
+  transform: rotate(90deg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #fff;
 }
 
 
