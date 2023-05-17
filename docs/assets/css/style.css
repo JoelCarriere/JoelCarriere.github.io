@@ -272,7 +272,7 @@ hr {
   padding-top: 50px;
 }
 
-#banner {
+.banner {
   width: 100%;
   box-sizing: border-box;
   background: url('/docs/assets/img/headshot2.jpg');
@@ -350,6 +350,7 @@ hr {
 .right-side {
   width: 46%; /* Take up the other half of the container */
   overflow-y: scroll; /* Allow the text to auto format */
+  overflow-x: hidden;
   z-index: -1; /* Give the image a lower z-index */
   padding: 4%;
 }
