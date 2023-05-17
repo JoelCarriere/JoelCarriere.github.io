@@ -56,12 +56,19 @@ h2 {
 }
 
 .headshot-img {
-  height: 600px;
-  margin: 100px;
-  float: center;
-  border-radius: 50%;
-  transform: none; /* Reset rotation */
+  width: 100%;
 }
+
+#banner-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+#banner-wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
 
 #div_top_hypers {
   background-color: transparent;
@@ -259,9 +266,8 @@ hr {
   border-color: white;
 }
 
-#intro-photo {
-  min-height: 40vh;
-  min-width: 100vw;
+#banner-img {
+  width: 100%;
   background-image: url('/docs/assets/img/headshot2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
