@@ -291,7 +291,7 @@ hr {
 }
 
 /* Define the left side (image) */
-.left-side {
+.banner-side {
   width: 50%;
   /* Take up half of the container */
   background-image: url('/docs/assets/img/headshot2.jpg');
