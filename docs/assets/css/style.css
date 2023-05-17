@@ -55,18 +55,7 @@ h2 {
   margin-top: -6px;
 }
 
-#banner {
-  width: 100%;
-  height: 100px;
-  box-sizing: border-box;
-  background: url('/docs/assets/img/headshot2.jpg');
-  transform: rotate(90deg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: #fff;
-}
+
 
 
 #div_top_hypers {
@@ -270,8 +259,21 @@ hr {
   background-image: url('/docs/assets/img/headshot2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  transform: rotate(90deg);
+  transform: rotate(0deg);
   padding-top: 50px;
+}
+
+#banner {
+  width: 100%;
+  height: 100px;
+  box-sizing: border-box;
+  background: url('/docs/assets/img/headshot2.jpg');
+  transform: rotate(90deg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #fff;
 }
 
 /* Define a container for the layout */
@@ -306,7 +308,7 @@ hr {
 
 /* Define the right side (text) */
 .right-side {
-  width: 50%; /* Take up the other half of the container */
+  width: 46%; /* Take up the other half of the container */
   overflow-y: auto; /* Allow the text to auto format */
   z-index: -1; /* Give the image a lower z-index */
   padding: 2%;
