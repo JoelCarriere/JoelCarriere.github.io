@@ -262,7 +262,6 @@ hr {
 }
 
 #intro-photo {
-  max-height: 40vh;
   width: 100vh;
   background-image: url('/docs/assets/img/headshot2.jpg');
   background-size: cover;
