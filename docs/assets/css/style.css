@@ -337,8 +337,7 @@ hr {
 .banner-side {
   width: 50%;
   /* Take up half of the container */
-  background-image: url('/docs/assets/img/headshot2.jpg');
-  /* Add the image */
+
   background-repeat: no-repeat;
   /* Do not repeat the image */
   background-size: cover;
@@ -396,8 +395,7 @@ nav > ul {
 .banner-side {
   width: 100%;
   /* Take up full width of the container */
-  background-image: url('/docs/assets/img/headshot2.jpg');
-  /* Add the image */
+
   background-repeat: no-repeat;
   /* Do not repeat the image */
   background-size: cover;
