@@ -267,7 +267,7 @@ hr {
   background-size: cover;
   background-repeat: no-repeat;
   transform: rotate(90deg);
-  padding: 50px;
+  padding-top: 50px;
 }
 
 /* Define a container for the layout */
