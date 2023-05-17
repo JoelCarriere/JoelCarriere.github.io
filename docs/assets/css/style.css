@@ -205,7 +205,7 @@ nav:hover {
   color: white;
 }
 
-.main-preview {
+.index-paragraph {
   float: center;
   width: 100%;
   text-align: justify;
@@ -213,16 +213,14 @@ nav:hover {
   padding-right: 2em;
 }
 
-
-
-
-.headshot-img {
-  height: 600px;
-  margin:100px;
+.resume-block {
   float: center;
-  border-radius: 50%;
-
+  width: 100%;
+  text-align: justify;
+  margin-right: auto;
+  padding-right: 2em;
 }
+
 
 #div_top_hypers {
     background-color: transparent;
