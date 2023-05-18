@@ -303,7 +303,7 @@ hr {
     overflow: hidden;
     width: 100%;
     color: black;
-    float: right;
+    float: none;
     background-color: rgb(241, 241, 241);
     font-family: 'Lato', serif;
     color: white;
@@ -368,7 +368,7 @@ header {
   display: inline-block;
   list-style-type: none;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 0.5em;
   margin: auto;
   padding: 1px;
   flex-direction: row;
