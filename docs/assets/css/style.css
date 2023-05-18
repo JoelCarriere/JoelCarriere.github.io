@@ -234,7 +234,8 @@ li{
     text-decoration: none;
   }
 
-li.resume{
+ul.resume{
+    list-style-type:circle;
     display: inline;
     color: #000;
     padding: 8px 16px;
