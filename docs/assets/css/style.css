@@ -392,8 +392,8 @@ nav > ul {
   /* Define a container for the layout */
   .container {
     display: flex;
-  flex-wrap: wrap;    
-justify-content: center;
+    flex-wrap: wrap;    
+    justify-content: center;
     /* Use flexbox for layout */
     margin-top: 50px;
     /* The height of the header */
@@ -404,7 +404,6 @@ justify-content: center;
   .banner-side {
     width: 100%;
     /* Take up full width of the container */
-    box-sizing: border-box;
     background: url('/docs/assets/img/headshot2.jpg');
     background-repeat: no-repeat;
     /* Do not repeat the image */
