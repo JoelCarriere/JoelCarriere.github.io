@@ -55,13 +55,8 @@ h2 {
   margin-top: -6px;
 }
 
-.headshot-img {
-  height: 600px;
-  margin: 100px;
-  float: center;
-  border-radius: 50%;
-  transform: none; /* Reset rotation */
-}
+
+
 
 #div_top_hypers {
   background-color: transparent;
@@ -180,7 +175,7 @@ nav:hover {
    height: 46px;
    border-radius: 25%;
    overflow: hidden;
-   margin-top: -6px;
+   margin-top: -20px;
 }
 
 .top-logo-image{
@@ -188,7 +183,7 @@ nav:hover {
   height: 46px;
   border-radius: 25%;
   overflow: hidden;
-  margin-top: -6px;
+  margin-top: -20px;
   margin-bottom: 10px;
   float: center;
 }
@@ -205,7 +200,7 @@ nav:hover {
   color: white;
 }
 
-.main-preview {
+.index-paragraph {
   float: center;
   width: 100%;
   text-align: justify;
@@ -213,16 +208,19 @@ nav:hover {
   padding-right: 2em;
 }
 
-
-
-
-.headshot-img {
-  height: 600px;
-  margin:100px;
+.resume-block {
   float: center;
-  border-radius: 50%;
-
+  width: 100%;
+  text-align: justify;
+  margin-right: auto;
+  padding-right: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
 }
+
 
 #div_top_hypers {
     background-color: transparent;
@@ -236,6 +234,9 @@ li{
     text-decoration: none;
   }
 
+.resume-list{
+    list-style-type:circle;
+  }
 
 ul {
   list-style-type: none;
@@ -261,51 +262,33 @@ hr {
   border-color: white;
 }
 
-#intro-photo {
-  width: 100vh;
+#banner-img {
+  width: 100%;
   background-image: url('/docs/assets/img/headshot2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  transform: rotate(90deg);
+  transform: rotate(0deg);
   padding-top: 50px;
 }
 
-/* Define a container for the layout */
+.banner {
+  width: 100%;
+  box-sizing: border-box;
+  background: url('/docs/assets/img/headshot2.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #fff;
+}
+
+
 .top-container {
   display: flex;
-  /* Use flexbox for layout */
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
   margin-top: 50px;
-  /* The height of the header */
-}
-
-/* Define a container for the layout */
-.container {
-  display: flex;
-  /* Use flexbox for layout */
-  margin-top: 50px;
-  /* The height of the header */
-}
-
-/* Define the left side (image) */
-.left-side {
-  width: 50%;
-  /* Take up half of the container */
-  background-image: url('/docs/assets/img/headshot2.jpg');
-  /* Add the image */
-  background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: cover;
-  /* Cover the entire side */
-  z-index: -1;
-  /* Give the image a lower z-index */
-}
-
-/* Define the right side (text) */
-.right-side {
-  width: 50%; /* Take up the other half of the container */
-  overflow-y: auto; /* Allow the text to auto format */
-  z-index: -1; /* Give the image a lower z-index */
-  padding: 2%;
 }
 
 
@@ -339,40 +322,44 @@ hr {
     justify-content: space-evenly;
   }
 
-  /* Define a container for the layout */
-  .container {
-    display: flex;
-    /* Use flexbox for layout */
-    margin-top: 50px;
-    /* The height of the header */
-  }
+/* Define a container for the layout */
+.container {
+  display: flex;
+  /* Use flexbox for layout */
+  margin-top: 50px;
+  /* The height of the header */
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
 
-  /* Define the left side (image) */
-  .left-side {
-    width: 50%;
-    /* Take up half of the container */
-    background-image: url('/docs/assets/img/headshot2.jpg');
-    /* Add the image */
-    background-repeat: no-repeat;
-    /* Do not repeat the image */
-    background-size: cover;
-    /* Cover the entire side */
-    z-index: -1;
-    /* Give the image a lower z-index */
-  }
-  /* Define the right side (text) */
-  .right-side {
-    width: 50%; /* Take up the other half of the container */
-    overflow-y: auto; /* Allow the text to auto format */
-    z-index: -1; /* Give the image a lower z-index */
-    padding: 2%;
-  }
+/* Define the left side (image) */
+.banner-side {
+  width: 50%;
+  /* Take up half of the container */
+  box-sizing: border-box;
+  background: url('/docs/assets/img/headshot2.jpg');
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Cover the entire side */
+  z-index: -1;
+  /* Give the image a lower z-index */
+}
+
+/* Define the right side (text) */
+.right-side {
+  width: 46%; /* Take up the other half of the container */
+  overflow-y: scroll; /* Allow the text to auto format */
+  overflow-x: hidden;
+  z-index: -1; /* Give the image a lower z-index */
+  padding: 4%;
+}
 }
 
 
 
 /* Mobile Phone Styles */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 header {
   background-color: rgb(241, 241, 241);
   display: flex;
@@ -390,6 +377,7 @@ nav {
   font-family: 'Lato', serif;
   color: white;
   font-size: 1em;
+  justify-self: left;
 }
 
 nav > ul {
@@ -397,35 +385,45 @@ nav > ul {
   justify-content: space-evenly;
 }
 
-/* Define a container for the layout */
-.container {
-  display: flex;
-  /* Use flexbox for layout */
-  margin-top: 50px;
-  /* The height of the header */
-}
 
-/* Define the left side (image) */
-.left-side {
-  width: 100%;
-  /* Take up full width of the container */
-  background-image: url('/docs/assets/img/headshot2.jpg');
-  /* Add the image */
-  background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: cover;
-  /* Cover the entire side */
-  z-index: -1;
-  /* Give the image a lower z-index */
-}
+  /* Define a container for the layout */
+  .container {
+    display: flex;
+  flex-wrap: wrap;    
+justify-content: center;
+    /* Use flexbox for layout */
+    margin-top: 50px;
+    /* The height of the header */
+    flex-direction: row;
+  }
 
-/* Define the right side (text) */
-.right-side {
-  width: 100%; /* Take up full width of the container */
-  overflow-y: auto; /* Allow the text to auto format */
-  z-index: -1; /* Give the image a lower z-index */
-  padding: 2%;
-}
+  /* Define the left side (image) */
+  .banner-side {
+    width: 100%;
+    /* Take up full width of the container */
+    box-sizing: border-box;
+    background: url('/docs/assets/img/headshot2.jpg');
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Cover the entire side */
+    z-index: -1;
+    /* Give the image a lower z-index */
+    position: relative;
+  }
+
+  /* Define the right side (text) */
+  .right-side {
+    width: 100%;
+    /* Take up full width of the container */
+    overflow-y: auto;
+    /* Allow the text to auto format */
+    z-index: -1;
+    /* Give the image a lower z-index */
+    padding: 10%;
+    position: relative;
+  }
+
 }
 
 </style>
