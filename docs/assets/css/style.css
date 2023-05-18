@@ -387,35 +387,40 @@ nav > ul {
   justify-content: space-evenly;
 }
 
-/* Define a container for the layout */
-.container {
-  display: flex;
-  /* Use flexbox for layout */
-  margin-top: 50px;
-  /* The height of the header */
-}
 
-/* Define the left side (image) */
-.banner-side {
-  width: 100%;
-  /* Take up full width of the container */
-  box-sizing: border-box;
-  background: url('/docs/assets/img/headshot2.jpg');
-  background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: cover;
-  /* Cover the entire side */
-  z-index: -1;
-  /* Give the image a lower z-index */
-}
+  /* Define a container for the layout */
+  .container {
+    display: flex;
+    /* Use flexbox for layout */
+    margin-top: 50px;
+    /* The height of the header */
+  }
 
-/* Define the right side (text) */
-.right-side {
-  width: 100%; /* Take up full width of the container */
-  overflow-y: auto; /* Allow the text to auto format */
-  z-index: -1; /* Give the image a lower z-index */
-  padding: 10%;
-}
+  /* Define the left side (image) */
+  .banner-side {
+    width: 100%;
+    /* Take up full width of the container */
+    box-sizing: border-box;
+    background: url('/docs/assets/img/headshot2.jpg');
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Cover the entire side */
+    z-index: -1;
+    /* Give the image a lower z-index */
+  }
+
+  /* Define the right side (text) */
+  .right-side {
+    width: 100%;
+    /* Take up full width of the container */
+    overflow-y: auto;
+    /* Allow the text to auto format */
+    z-index: -1;
+    /* Give the image a lower z-index */
+    padding: 10%;
+  }
+
 }
 
 </style>
