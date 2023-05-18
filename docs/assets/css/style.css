@@ -241,12 +241,21 @@ hr {
 }
 
 .resume-block {
-  float: center;
   width: 100%;
   text-align: justify;
   margin-right: auto;
   padding-right: 2em;
   z-index: -1;
+  display: flex;
+  flex-direction: column; /* Set the direction to vertical */
+}
+
+.resume-block h3 {
+  margin-top: 0; /* Remove top margin to align with other blocks */
+}
+
+.resume-list {
+  padding-left: 2em; /* Indent the list items */
 }
 
 }
@@ -338,12 +347,21 @@ nav > ul {
   }
   
   .resume-block {
-    float: center;
     width: 100%;
     text-align: justify;
     margin-right: auto;
     padding-right: 2em;
     z-index: -1;
+    display: flex;
+    flex-direction: column; /* Set the direction to vertical */
+  }
+  
+  .resume-block h3 {
+    margin-top: 0; /* Remove top margin to align with other blocks */
+  }
+  
+  .resume-list {
+    padding-left: 2em; /* Indent the list items */
   }
 
 }
