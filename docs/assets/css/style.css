@@ -36,12 +36,6 @@ h2 {
   color: #646A6A;
 }
 
-.toplogo {
-  font-family: "Lobster", sans-serif;
-  font-size: 1em;
-  color: black;
-  width: 25vw;
-}
 
 .button:hover {
   transform: scale(1.1);
@@ -71,7 +65,7 @@ nav:hover {
 
 
 
-.logo-image{
+.bottom-logo{
    width: 46px;
    height: 46px;
    border-radius: 25%;
