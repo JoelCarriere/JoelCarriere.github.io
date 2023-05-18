@@ -96,7 +96,7 @@ li{
     text-decoration: none;
   }
 
-.resume-block ul{
+.resume-list {
     list-style-type:circle;
   }
 
@@ -254,10 +254,6 @@ hr {
   margin-top: 0; /* Remove top margin to align with other blocks */
 }
 
-.resume-list {
-  padding-left: 2em; /* Indent the list items */
-}
-
 }
 
 
@@ -346,6 +342,7 @@ nav > ul {
   }
   
   .resume-block {
+    float: center;
     width: 100%;
     text-align: justify;
     margin-right: auto;
@@ -359,9 +356,6 @@ nav > ul {
     margin-top: 0; /* Remove top margin to align with other blocks */
   }
   
-  .resume-list {
-    padding-left: 2em; /* Indent the list items */
-  }
 
 }
 
