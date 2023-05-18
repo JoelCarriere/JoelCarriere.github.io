@@ -234,7 +234,7 @@ li{
     text-decoration: none;
   }
 
-ul.resume{
+.resume-list{
     list-style-type:circle;
     display: inline;
     color: #000;
@@ -410,6 +410,7 @@ nav > ul {
     /* Cover the entire side */
     z-index: -1;
     /* Give the image a lower z-index */
+    position: relative;
   }
 
   /* Define the right side (text) */
@@ -421,6 +422,7 @@ nav > ul {
     z-index: -1;
     /* Give the image a lower z-index */
     padding: 10%;
+    position: relative;
   }
 
 }
