@@ -289,9 +289,11 @@ nav > ul {
 }
 
 
+  
   /* Define a container for the layout */
   .container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     /* Use flexbox for layout */
     margin-top: 50px;
@@ -310,6 +312,7 @@ nav > ul {
     /* Cover the entire side */
     /* Give the image a lower z-index */
     position: relative;
+    flex: 1;
   }
 
   /* Define the right side (text) */
@@ -318,10 +321,9 @@ nav > ul {
     /* Take up full width of the container */
     overflow-y: auto;
     /* Allow the text to auto format */
-    z-index: -1;
-    /* Give the image a lower z-index */
     padding: 10%;
     position: relative;
+    flex: 1;
   }
 
   .index-paragraph {
