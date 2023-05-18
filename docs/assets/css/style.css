@@ -182,22 +182,7 @@ nav:hover {
   color: white;
 }
 
-.index-paragraph {
-  float: center;
-  width: 100%;
-  text-align: justify;
-  margin-right: auto;
-  padding-right: 2em;
-}
 
-.resume-block {
-  float: center;
-  width: 100%;
-  text-align: justify;
-  margin-right: auto;
-  padding-right: 2em;
-  z-index: -1;
-}
 
 
 #div_top_hypers {
@@ -347,6 +332,24 @@ hr {
   z-index: -1; /* Give the image a lower z-index */
   padding: 4%;
 }
+
+.index-paragraph {
+  float: center;
+  width: 100%;
+  text-align: justify;
+  margin-right: auto;
+  padding-right: 2em;
+}
+
+.resume-block {
+  float: center;
+  width: 100%;
+  text-align: justify;
+  margin-right: auto;
+  padding-right: 2em;
+  z-index: -1;
+}
+
 }
 
 
@@ -425,6 +428,23 @@ nav > ul {
     /* Give the image a lower z-index */
     padding: 10%;
     position: relative;
+  }
+
+  .index-paragraph {
+    float: center;
+    width: 100%;
+    text-align: justify;
+    margin-right: auto;
+    padding-right: 2em;
+  }
+  
+  .resume-block {
+    float: center;
+    width: 100%;
+    text-align: justify;
+    margin-right: auto;
+    padding-right: 2em;
+    z-index: -1;
   }
 
 }
