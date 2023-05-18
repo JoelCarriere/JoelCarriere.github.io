@@ -331,7 +331,7 @@ nav > ul {
     /* Take up full width of the container */
     overflow-y: auto;
     /* Allow the text to auto format */
-    z-index: -1;
+
     /* Give the image a lower z-index */
     padding: 10%;
     position: relative;
