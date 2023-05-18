@@ -1,0 +1,11 @@
+{
+  version: 1,
+  mediaFileName: 'rom-video.mp4',
+  cutSegments: [
+    {
+      start: 0.6802209944751381,
+      end: 12.034398,
+      name: '',
+    },
+  ],
+}
