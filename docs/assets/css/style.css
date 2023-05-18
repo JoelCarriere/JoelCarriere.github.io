@@ -389,6 +389,8 @@ nav > ul {
   /* Define a container for the layout */
   .container {
     display: flex;
+  flex-wrap: wrap;    
+justify-content: center;
     /* Use flexbox for layout */
     margin-top: 50px;
     /* The height of the header */
