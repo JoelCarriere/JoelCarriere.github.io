@@ -141,8 +141,7 @@ hr {
 
 .resume-block ul{
   list-style-type: circle;
-  float: left;
-  display: block;
+  list-style-position: outside;
   background: #000;
 }
 
