@@ -298,7 +298,6 @@ nav > ul {
   .banner-side {
     height: 50%;
     /* Take up full width of the container */
-    background: url('/docs/assets/img/headshot2.jpg');
     background-repeat: no-repeat;
     /* Do not repeat the image */
     background-size: cover;
