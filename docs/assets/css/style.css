@@ -16,7 +16,9 @@ head {
 }
 
 
-
+div {
+  padding: 5%;
+}
 
 body {
   margin: 0;
@@ -147,7 +149,14 @@ hr {
   list-style-position: outside;
 }
 
+.resume-block li:hover {
+  pointer-events: none;
+}
 
+.resume-block li {
+  list-style-type: disc;
+  display: list-item;
+}
 
 /* Desktop Styles */
 @media (min-width: 768px) {
@@ -187,6 +196,10 @@ hr {
     justify-content: space-evenly;
   }
 
+  #rom-video {
+    width: 50%;
+  }
+
 /* Define a container for the layout */
 #container {
   min-height: 100vh;
@@ -214,11 +227,10 @@ hr {
 
 /* Define the right side (text) */
 .right-side {
-  width: 46%; /* Take up the other half of the container */
+  width: 50%; /* Take up the other half of the container */
   overflow-y: scroll; /* Allow the text to auto format */
   overflow-x: hidden;
   z-index: -1; /* Give the image a lower z-index */
-  padding: 4%;
 }
 
 .index-paragraph {
@@ -281,7 +293,9 @@ nav > ul {
   justify-content: space-evenly;
 }
 
-
+#rom-video {
+  width: 100%;
+}
   
   /* Define a container for the layout */
   #container {
@@ -294,6 +308,11 @@ nav > ul {
     /* The height of the header */
   }
 
+  #headshot {
+    max-width: 100%;
+    z-index: -1;
+  }
+
   /* Define the left side (image) */
   .banner-side {
     height: 50%;
@@ -304,7 +323,6 @@ nav > ul {
     /* Cover the entire side */
     /* Give the image a lower z-index */
     position: relative;
-    z-index: 1;
     flex: 1;
   }
 
@@ -313,6 +331,7 @@ nav > ul {
     height: 50%;
     /* Take up full width of the container */
     overflow-y: auto;
+    overflow-x: hidden;
     /* Allow the text to auto format */
     padding: 10%;
     position: relative;
