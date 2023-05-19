@@ -15,14 +15,7 @@ head {
   font-family: 'Lato', sans-serif;
 }
 
-main {
-  display: flex;
-  flex-wrap: wrap;
-}
 
-.container {
-  container-type: inline-size;
-}
 
 
 body {
@@ -297,7 +290,6 @@ nav > ul {
     /* Use flexbox for layout */
     margin-top: 50px;
     /* The height of the header */
-    flex-direction: row;
   }
 
   /* Define the left side (image) */
@@ -311,6 +303,7 @@ nav > ul {
     /* Cover the entire side */
     /* Give the image a lower z-index */
     position: relative;
+    z-index: 1;
     flex: 1;
   }
 
