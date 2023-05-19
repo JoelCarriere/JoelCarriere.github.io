@@ -15,6 +15,16 @@ head {
   font-family: 'Lato', sans-serif;
 }
 
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  container-type: inline-size;
+}
+
+
 body {
   margin: 0;
   text-align: center;
