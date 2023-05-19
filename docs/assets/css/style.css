@@ -140,9 +140,10 @@ hr {
 }
 
 .resume-block ul{
-  list-style-type: disc;
+  list-style-type: circle;
   float: left;
-  display: flex;
+  display: block;
+  background: #000;
 }
 
 
