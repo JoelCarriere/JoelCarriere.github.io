@@ -306,7 +306,7 @@ nav > ul {
   
   /* Define a container for the layout */
   #container {
-    min-height: 100vh;
+    min-height: calc(100vh - 50px);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
