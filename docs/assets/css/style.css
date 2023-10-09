@@ -67,14 +67,13 @@ nav:hover {
    margin-top: -20px;
 }
 
-.top-logo-image{
+.top-logo-image {
   width: 46px;
   height: 46px;
   border-radius: 25%;
   overflow: hidden;
-  margin-top: -15px;
-  margin-bottom: 10px;
-  float: center;
+  margin: auto;
+  display: block;
 }
 
 li{
@@ -115,6 +114,10 @@ hr {
   border-color: white;
 }
 
+.resume-header {
+  text-align: center;
+}
+
 #banner-img {
   width: 100%;
   background-image: url('/docs/assets/img/headshot2.jpg');
@@ -144,9 +147,13 @@ hr {
   margin-top: 50px;
 }
 
-.resume-block ul{
+.resume-block ul {
   list-style-type: circle;
   list-style-position: outside;
+  text-align: left;
+  padding-left: 20px;
+  margin-left: 0;
+  width: 100%;
 }
 
 .resume-block li:hover {
@@ -169,6 +176,7 @@ hr {
     height: 50px;
     position: fixed;
     font-size: 1.5em;
+    z-index: 1;
   }
 
   .nav {
@@ -200,46 +208,45 @@ hr {
     width: 50%;
   }
 
-/* Define a container for the layout */
-#container {
-  min-height: 100vh;
-  display: flex;
-  /* Use flexbox for layout */
-  margin-top: 50px;
-  /* The height of the header */
-  overflow-y: scroll;
-  overflow-x: hidden;
-}
+  .container {
+    display: flex;
+    justify-content: center;
+    /* Use flexbox for layout */
+    margin-top: 50px;
+    /* The height of the header */
+  }
 
-/* Define the left side (image) */
-.banner-side {
-  width: 50%;
-  /* Take up half of the container */
-  box-sizing: border-box;
-  background: url('/docs/assets/img/headshot2.jpg');
-  background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: cover;
-  /* Cover the entire side */
-  z-index: -1;
-  /* Give the image a lower z-index */
-}
+  #headshot {
+    width: 100%;
+  }
 
-/* Define the right side (text) */
-.right-side {
-  width: 50%; /* Take up the other half of the container */
-  overflow-y: scroll; /* Allow the text to auto format */
-  overflow-x: hidden;
-  z-index: -1; /* Give the image a lower z-index */
-}
+  .banner-side {
+    width: 50%;
+    /* Take up 50% of the container width */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Cover the entire side */
+    /* Give the image a lower z-index */
+  }
 
-.index-paragraph {
-  float: center;
-  width: 100%;
-  text-align: justify;
-  margin-right: auto;
-  padding-right: 2em;
-}
+  .right-side {
+    width: 50%;
+    /* Take up 50% of the container width */
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* Allow the text to auto format */
+    padding: 0%;
+  }
+
+  .index-paragraph {
+    float: center;
+    width: 100%;
+    text-align: justify;
+    margin-right: auto;
+    padding-right: 2em;
+    flex-wrap: wrap;
+  }
 
 .resume-block {
   width: 100%;
@@ -299,7 +306,7 @@ nav > ul {
   
   /* Define a container for the layout */
   #container {
-    min-height: 100vh;
+    min-height: calc(100vh - 50px);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
