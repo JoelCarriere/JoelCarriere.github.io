@@ -21,27 +21,46 @@ div {
 }
 
 body {
-  margin: 0;
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  background-color: #d9d0b7;
   font-family: 'Roboto Condensed', sans-serif;
   color: black;
+  background: linear-gradient(#96C2DB, #E5EDF1);
 }
+
+
 
 h1 {
   font-family: "Lobster", sans-serif;
   font-size: 1em;
-  color: blue;
   width: 25vw;
 }
 
 h2 {
   font-family: "Lobster", sans-serif;
   font-size: 2em;
-  color: #646A6A;
+  color: grey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  text-align: left;
+  
 }
 
+.index-paragraph > h2 {
+  color: grey;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
 
+#headshot {
+  border-radius: 5%;
+}
+ 
 .button:hover {
   transform: scale(1.1);
 }
@@ -139,13 +158,6 @@ hr {
 }
 
 
-.top-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  margin-top: 50px;
-}
 
 .resume-block ul {
   list-style-type: circle;
@@ -163,6 +175,52 @@ hr {
 .resume-block li {
   list-style-type: disc;
   display: list-item;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.top-content {
+  display: flex;
+  box-sizing: border-box; /* Include padding and borders in the width */
+  background: linear-gradient(62deg, #d4442d, #9cd2c1, #e2f3e8, #ca8a29);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 59s ease infinite;
+  -moz-animation: AnimationName 59s ease infinite;
+  animation: AnimationName 59s ease infinite;
+}
+
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 92%}
+  50%{background-position:100% 9%}
+  100%{background-position:0% 92%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 92%}
+  50%{background-position:100% 9%}
+  100%{background-position:0% 92%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 92%}
+  50%{background-position:100% 9%}
+  100%{background-position:0% 92%}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 /* Desktop Styles */
@@ -231,6 +289,14 @@ hr {
   }
 
   .right-side {
+    width: 50%;
+    /* Take up 50% of the container width */
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* Allow the text to auto format */
+    padding: 0%;
+  }
+  .intro-paragraph {
     width: 50%;
     /* Take up 50% of the container width */
     overflow-y: auto;
