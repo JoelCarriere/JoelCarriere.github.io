@@ -4,159 +4,160 @@
 @import url(http://fonts.googleapis.com/css?family=Fondamento);
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-<link href="//fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-
-<style>
 /* Common styles for all devices */
-head {
-  display: none;
-  background-color: transparent;
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  color: black;
+  font-size: 1.2em;
+  margin: 0;
+  background: linear-gradient(62deg, #eb8a03, #9cd2c1, #e2f3e8, #4b9ada);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
 }
 
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 92%}
+  50%{background-position:100% 9%}
+  100%{background-position:0% 92%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 92%}
+  50%{background-position:100% 9%}
+  100%{background-position:0% 92%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 92%}
+  50%{background-position:100% 9%}
+  100%{background-position:0% 92%}
+}
+
+h2 {
+  font-family: 'Roboto Condensed',  serif, sans-serif;
+  font-size: 2em;
+  color: rgb(38, 38, 38);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  text-align: center;
+}
 
 div {
   padding: 5%;
 }
 
-body {
+
+.header {
   display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-family: 'Roboto Condensed', sans-serif;
-  color: black;
-  background: linear-gradient(#96C2DB, #E5EDF1);
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
-
-
-h1 {
-  font-family: "Lobster", sans-serif;
-  font-size: 1em;
-  width: 25vw;
+.pages {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+  list-style: none;
 }
 
-h2 {
-  font-family: "Lobster", sans-serif;
-  font-size: 2em;
-  color: grey;
+.left, .right {
+  display: flex;
+  align-items: center;
+}
+
+#header-logo img {
+  width: 46px;
+  height: 46px;
+  border-radius: 25%;
+  overflow: hidden;
+}
+
+.footer {
+  width:100%
+}
+
+.footer ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  gap: 10%;
+}
+
+.footer-logos img {
+  width: 46px;
+  height: 46px;
+  border-radius: 25%;
+}
+
+.experience-paragraph {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content: flex-start;
-  text-align: left;
-  
+  align-items: center;
 }
 
-.index-paragraph > h2 {
-  color: grey;
+.education-paragraph {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
+}
+
+.index-paragraph {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 #headshot {
   border-radius: 5%;
+  width: 100%;
 }
  
-.button:hover {
+button {
+  background-color: rgb(190, 185, 185);
+  border-radius: 1vh;
+}
+
+button:hover {
   transform: scale(1.1);
 }
 
-.logo-image {
-  width: 46px;
-  height: 46px;
-  border-radius: 25%;
-  overflow: hidden;
-  margin-top: -6px;
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
 }
 
-
-nav:hover {
+a:hover {
   color: black;
 }
 
-.bottom-logo{
-   width: 46px;
-   height: 46px;
-   border-radius: 25%;
-   overflow: hidden;
-   margin-top: -20px;
-}
-
-.top-logo-image {
-  width: 46px;
-  height: 46px;
-  border-radius: 25%;
-  overflow: hidden;
-  margin: auto;
-  display: block;
-}
-
-li{
-    display: inline;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-  }
-
-
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 250px;
-  background-color: transparent;
-  opacity: 50%;
-  float: right;
-}
-
-ul a{
-  color: #000;
-  text-decoration: none;
-}
-
-/* Change the link color on hover */
-li:hover {
-  background-color: #555;
-  color: grey;
-}
 
 hr {
-  width: 80%;
+  min-width: 80%;
   color: white;
   background-color: white;
   height: 2px;
   border-color: white;
+  align-items: center;
 }
 
 .resume-header {
   text-align: center;
 }
-
-#banner-img {
-  width: 100%;
-  background-image: url('/docs/assets/img/headshot2.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  transform: rotate(0deg);
-  padding-top: 50px;
-}
-
-.banner {
-  width: 100%;
-  box-sizing: border-box;
-  background: url('/docs/assets/img/headshot2.jpg');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: #fff;
-}
-
 
 
 .resume-block ul {
@@ -186,80 +187,31 @@ hr {
 .top-content {
   display: flex;
   box-sizing: border-box; /* Include padding and borders in the width */
-  background: linear-gradient(62deg, #d4442d, #9cd2c1, #e2f3e8, #ca8a29);
-  background-size: 800% 800%;
-
-  -webkit-animation: AnimationName 59s ease infinite;
-  -moz-animation: AnimationName 59s ease infinite;
-  animation: AnimationName 59s ease infinite;
-}
+};
 
 
-@-webkit-keyframes AnimationName {
-  0%{background-position:0% 92%}
-  50%{background-position:100% 9%}
-  100%{background-position:0% 92%}
-}
-@-moz-keyframes AnimationName {
-  0%{background-position:0% 92%}
-  50%{background-position:100% 9%}
-  100%{background-position:0% 92%}
-}
-@keyframes AnimationName {
-  0%{background-position:0% 92%}
-  50%{background-position:100% 9%}
-  100%{background-position:0% 92%}
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
 
 /* Desktop Styles */
 @media (min-width: 768px) {
-  header {
-    background-color: rgb(241, 241, 241);
+  .header {
     display: flex;
-    top: 0;
+    color: white;
     /* Position the header at the top of the page */
     width: 100%;
     height: 50px;
-    position: fixed;
-    font-size: 1.5em;
+    position: static;
     z-index: 1;
   }
 
-  .nav {
-    text-align: center;
-    display: inline-block;
-    list-style-type: none;
-    text-decoration: none;
-    font-size: 1em;
-    margin: auto;
-    padding: 1px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    overflow: hidden;
-    width: 100%;
-    color: black;
-    float: none;
-    background-color: rgb(241, 241, 241);
-    font-family: 'Lato', serif;
+  .footer {
     color: white;
-  }
-
-  nav>ul {
     display: flex;
-    justify-content: space-evenly;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    position:static;
+    font-size: 1.5em;
+    z-index: 1;
   }
 
   #rom-video {
@@ -270,14 +222,11 @@ hr {
     display: flex;
     justify-content: center;
     /* Use flexbox for layout */
-    margin-top: 50px;
     /* The height of the header */
+    flex: 1;
   }
 
-  #headshot {
-    width: 100%;
-  }
-
+   
   .banner-side {
     width: 50%;
     /* Take up 50% of the container width */
@@ -288,14 +237,6 @@ hr {
     /* Give the image a lower z-index */
   }
 
-  .right-side {
-    width: 50%;
-    /* Take up 50% of the container width */
-    overflow-y: auto;
-    overflow-x: hidden;
-    /* Allow the text to auto format */
-    padding: 0%;
-  }
   .intro-paragraph {
     width: 50%;
     /* Take up 50% of the container width */
@@ -329,36 +270,45 @@ hr {
 
 /* Mobile Phone Styles */
 @media (max-width: 768px) {
-header {
-  background-color: rgb(241, 241, 241);
+.header {
   display: flex;
-  top: 0;
   /* Position the header at the top of the page */
   width: 100%;
-  height: 50px;
-  position: fixed;
+  position: static;
   font-size: 1.5em;
   z-index: 1;
 }
 
-.nav {
-  text-align: center;
-  display: inline-block;
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  bottom: 0;
+  /* Position the header at the top of the page */
+  width: 100%;
+  height: 50px;
+  position:relative;
+  font-size: 1.5em;
+  z-index: 1;
+}
+
+.footer ul {
+  gap: 100%;
+}
+
+a {
+  font-size: 1em;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
   text-decoration: none;
-  font-size: 0.5em;
   margin: auto;
-  padding: 1px;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   overflow: hidden;
   width: 100%;
-  color: black;
-  float: right;
-  background-color: rgb(241, 241, 241);
-  font-family: 'Lato', serif;
-  color: white;
 }
 
 nav > ul {
@@ -366,25 +316,38 @@ nav > ul {
   justify-content: space-evenly;
 }
 
+
 #rom-video {
   width: 100%;
 }
   
   /* Define a container for the layout */
-  #container {
+  .container {
     min-height: calc(100vh - 50px);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     /* Use flexbox for layout */
-    margin-top: 50px;
     /* The height of the header */
   }
 
-  #headshot {
+  #header-logo img {
     max-width: 100%;
     z-index: -1;
   }
+
+
+    /* Define a container for the layout */
+    .top-content {
+      min-height: calc(100vh - 50px);
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      /* Use flexbox for layout */
+      margin-top: 50px;
+      /* The height of the header */
+    }
 
   /* Define the left side (image) */
   .banner-side {
@@ -400,7 +363,7 @@ nav > ul {
   }
 
   /* Define the right side (text) */
-  .right-side {
+  .intro-paragraph {
     height: 50%;
     /* Take up full width of the container */
     overflow-y: auto;
@@ -433,4 +396,3 @@ nav > ul {
   }
 }
 
-</style>
