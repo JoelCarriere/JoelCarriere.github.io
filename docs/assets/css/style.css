@@ -6,14 +6,15 @@
 
 /* Common styles for all devices */
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  align-items: center;
   text-align: center;
   color: black;
   font-size: 1.2em;
   margin: 0;
-  background: linear-gradient(62deg, #eb8a03, #9cd2c1, #e2f3e8, #4b9ada);
+  padding: 0;
+  background: linear-gradient(62deg, #ffffff, #e8fff7, #e4fded, #c0d8ea);
   background-size: 800% 800%;
 
   -webkit-animation: AnimationName 30s ease infinite;
@@ -53,11 +54,18 @@ div {
 }
 
 
+
 .header {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
+  background-color: #303030;
+  padding: 0%;
+}
+
+.pages li {
+  color: rgb(38, 38, 38);
 }
 
 .pages {
@@ -66,6 +74,7 @@ div {
   padding: 0;
   gap: 16px;
   list-style: none;
+  
 }
 
 .left, .right {
@@ -81,7 +90,10 @@ div {
 }
 
 .footer {
-  width:100%
+  display: flex;
+  background-color: #c4c4c4;
+  align-content: center;
+  justify-content: center;
 }
 
 .footer ul {
@@ -94,7 +106,7 @@ div {
 .footer-logos img {
   width: 46px;
   height: 46px;
-  border-radius: 25%;
+  border-radius: 50%;
 }
 
 .experience-paragraph {
@@ -129,10 +141,18 @@ div {
 button {
   background-color: rgb(190, 185, 185);
   border-radius: 1vh;
+  color: #fff;
+  padding: 0px 20px;
+  border: solid black;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 button:hover {
   transform: scale(1.1);
+  background-color: #555;
 }
 
 a{
@@ -228,6 +248,10 @@ hr {
 
    
   .banner-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     /* Take up 50% of the container width */
     background-repeat: no-repeat;
@@ -235,6 +259,7 @@ hr {
     background-size: cover;
     /* Cover the entire side */
     /* Give the image a lower z-index */
+    justify-content: center;
   }
 
   .intro-paragraph {
@@ -349,6 +374,7 @@ nav > ul {
       /* The height of the header */
     }
 
+
   /* Define the left side (image) */
   .banner-side {
     height: 50%;
@@ -360,6 +386,10 @@ nav > ul {
     /* Give the image a lower z-index */
     position: relative;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   /* Define the right side (text) */
