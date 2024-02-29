@@ -37,15 +37,52 @@
             <div>
               <h3>Machine Learning Projects</h3>
               <p>
-                One of my current main focuses in on using open-source algorithms and consumer-grade equipment to determine human wrist kinematics. Designing experiments, creating datasets, and refining model parameters has lead me to a high-degree of success in this. The video illustrates a 3D markerset generated through 2D videos and computer vision techniques.
+                My main focus is on using open-source
+                algorithms and off-the-shelf cameras to
+                determine human wrist kinematics. 
+                Designing experiments, creating datasets,
+                and refining model parameters has lead me
+                to a high-degree of success in this.
+                The video illustrates a 3D markerset
+                generated through 2D videos and computer vision techniques.
+                The green segment seen represents markers placed 
+                on a subjects knuckles and the blue segment represents
+                markers on their wrist. The orange segment is a connection
+                representing the movement of the hand in relation to the
+                wrist. 
               </p>
               <video id="rom-video" preload="auto" autoplay loop muted>
                 <source src="/docs/assets/img/rom-video.mp4" type=video/mp4>
               </video>
               <p>
-                I have successfully achieved a high-degree of accuracy when using both a multi-camera and single camera approach to solving this issue. Through the use of deep neural networks, I was able to achieve an angular value with a mean absolute error of 5 degrees when compared to the current gold-standard. 
+                Laboratory experiments were conducted to build the dataset that 
+                was used in training a wrist angle prediction model. 
+                A gold-standard motion capture system was used alongside 
+                off-the-shelf cameras to build a dataset that contained 
+                marker locations with ground-truth wrist angles. 
+                I have successfully achieved a high-degree of accuracy
+                when using both a multi-camera and single camera approach
+                to solving this issue. Through the use of deep neural networks,
+                I was able to achieve an angular value with a mean
+                absolute error of approximately 5 degrees when compared to the current gold-standard. 
               </p>
               <hr>
+              <p>
+                Another project involved using CNNs to detect faces within photos
+                and then predict the race and gender of the subject. This was 
+                completed by using YOLOv5 to detect subject faces within several
+                open-source datasets, and crop out the face without the surroundings. 
+                The cropped faces were used to train a pre-trained ResNet-34 network
+                to be able to predict the subject race and gender. Gender classification 
+                achieved 99% accuracy and race prediction achieved up to 95% accuracy.
+              </p>
+              <hr>
+              <p>
+                Designed experiments to evaluate machine learning models on a 
+                multi-modal human action dataset achieving an F1 score of 0.90
+                in classifying 21 upper body motions related to biomechanical
+                movement.
+              </p>
             </div>
           </div>
       </main>
