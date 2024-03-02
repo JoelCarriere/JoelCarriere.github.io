@@ -169,9 +169,9 @@ a:hover {
 hr {
   min-width: 80%;
   color: white;
-  background-color: white;
+  background-color: black;
   height: 2px;
-  border-color: white;
+  border-color: black;
   align-items: center;
 }
 
