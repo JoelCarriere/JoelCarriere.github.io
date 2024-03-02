@@ -309,24 +309,21 @@ hr {
   display: flex;
   justify-content: space-evenly;
   bottom: 0;
-  /* Position the header at the top of the page */
-  width: 100%;
   height: 50px;
   position:relative;
   font-size: 1.5em;
   z-index: 1;
   align-items: center;
-  overflow-x: hidden; /* Add this line to hide horizontal overflow */
+  padding: 5vh;
 }
 
 
 .footer ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   list-style: none;
   gap: 10%;
   margin: 0; /* Remove default margin to prevent unwanted space */
-  gap: 100%;
 }
 
 
