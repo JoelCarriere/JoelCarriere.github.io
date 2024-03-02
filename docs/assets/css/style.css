@@ -315,11 +315,21 @@ hr {
   position:relative;
   font-size: 1.5em;
   z-index: 1;
+  align-items: center;
+  overflow-x: hidden; /* Add this line to hide horizontal overflow */
 }
 
+
 .footer ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  gap: 10%;
+  margin: 0; /* Remove default margin to prevent unwanted space */
   gap: 100%;
 }
+
+
 
 a {
   font-size: 1em;
