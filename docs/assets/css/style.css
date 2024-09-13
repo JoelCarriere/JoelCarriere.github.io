@@ -6,7 +6,7 @@ body {
   font-size: 1.2em;
   margin: 0;
   padding: 0;
-  background: linear-gradient(62deg, #f3f4f6, #fdfdfd, #e4fded, #d0d0f7);
+  background: linear-gradient(62deg, #FFFFFF, #f3f4f6);
   background-size: 800% 800%;
   animation: gradient-bg 30s ease infinite;
   color: #333;
@@ -24,7 +24,7 @@ body {
 h2, h3, h4 {
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
-  color: #6c63ff;
+  color: #DB2D43;
 }
 
 h2 {
@@ -50,7 +50,7 @@ div {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #6c63ff;
+  background-color: #418C9F;
   padding: 0 5%;
   height: 60px; /* Set a fixed height */
   box-sizing: border-box;
@@ -72,7 +72,7 @@ div {
 }
 
 .pages li a:hover {
-  background-color: #ff6584;
+  background-color: #DB2D43;
   border-radius: 5px;
 }
 
@@ -84,12 +84,15 @@ div {
 
 .footer {
   display: flex;
-  background-color: #6c63ff;
+  background-color: #418C9F;
   justify-content: center;
-  padding: 10px;
+  padding: 10px 0;
   color: white;
-  margin-top: auto; /* Push footer to bottom */
+  margin-top: auto;
   width: 100%;
+  position: relative;
+  left: 0;
+  right: 0;
 }
 
 .footer ul {
@@ -117,7 +120,7 @@ div {
 }
 
 .footer-logos a:hover {
-  color: #ff6584;
+  color: #DB2D43;
 }
 
 .experience-paragraph,
@@ -135,7 +138,7 @@ div {
 }
 
 button {
-  background-color: #ff6584;
+  background-color: #DB2D43;
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
@@ -147,7 +150,7 @@ button {
 
 button:hover {
   transform: scale(1.05);
-  background-color: #ff4062;
+  background-color: #418C9F;
 }
 
 a {
@@ -157,13 +160,13 @@ a {
 }
 
 a:hover {
-  color: #ff4062;
+  color: #DB2D43;
 }
 
 hr {
   border: none;
   height: 2px;
-  background-color: #6c63ff;
+  background-color: #DB2D43;
   margin: 20px 0;
   width: 80%;
 }
@@ -183,7 +186,7 @@ hr {
 }
 
 .container {
-  flex: 1; /* Allow container to take up remaining space */
+  flex: 1;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -214,6 +217,15 @@ hr {
   text-align: left;
   padding: 20px;
   overflow-y: auto;
+}
+
+/* Fix Footer Padding and Spacing */
+.footer {
+  padding: 10px 0; /* Reduce padding to fix large space */
+}
+
+.container {
+  flex-grow: 1; /* Ensures container grows to take up space */
 }
 
 /* Desktop Styles */
