@@ -12,7 +12,7 @@ body {
   color: #333;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 100vh;  /* Make sure the body takes full height of the viewport */
 }
 
 @keyframes gradient-bg {
@@ -52,7 +52,7 @@ div {
   align-items: center;
   background-color: #418C9F;
   padding: 0 5%;
-  height: 60px; /* Set a fixed height */
+  height: 60px;
   box-sizing: border-box;
 }
 
@@ -86,13 +86,11 @@ div {
   display: flex;
   background-color: #418C9F;
   justify-content: center;
-  padding: 10px 0;
+  align-items: center;
+  padding: 10px;
   color: white;
-  margin-top: auto;
   width: 100%;
-  position: relative;
-  left: 0;
-  right: 0;
+  margin-top: auto;  /* Ensure the footer stays at the bottom */
 }
 
 .footer ul {
@@ -221,11 +219,12 @@ hr {
 
 /* Fix Footer Padding and Spacing */
 .footer {
-  padding: 10px 0; /* Reduce padding to fix large space */
+  padding: 10px 0; /* Reduce padding to fit content */
+  position: relative;
 }
 
 .container {
-  flex-grow: 1; /* Ensures container grows to take up space */
+  flex-grow: 1; /* Ensure the container takes up remaining space */
 }
 
 /* Desktop Styles */
