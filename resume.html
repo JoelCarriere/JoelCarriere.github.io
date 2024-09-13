@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 
-
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -15,13 +14,16 @@
     <link rel="mask-icon" href="docs/assets/img/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"></script>
   </head>
 
   <body>
     <div class="header">
       <div class="left">
-        <div id="header-logo"><img src="./docs/assets/img/site-logo-white.svg">
-        </div>
+        <div id="header-logo"><img src="./docs/assets/img/site-logo-white.svg" alt="Logo"></div>
       </div>
       <div class="right">
         <ul class="pages">
@@ -31,108 +33,123 @@
         </ul>
       </div>
     </div>
+
     <main>
       <div class="container">
-          <div class="resume-block">
-            <div class="resume-block">           
-            <h3 class="resume-header">Technical Skills</h3>
-            <ul>
-              <li><strong>Languages:</strong> Python, JavaScript, SQL, MATLAB, HTML, CSS</li>
-              <br>
-              <li><strong>Frameworks & Libraries:</strong> sci-kit learn, Pandas, NumPy, Matplotlib, PyTorch, OpenCV</li>
-              <br>
-              <li><strong>Machine Learning Models:</strong> Deep Neural Networks, Support Vector Machines, Decision Trees, KNN, Regression</li>
-              <br>
-              <li><strong>Machine Learning Projects:</strong> Biomechanical angle determination, pose estimation, face detection, face classification</li>
-            </ul>
-            <hr>
-            </div>
+        <div class="resume-block">           
+          <h3 class="resume-header">Technical Skills</h3>
+          <ul>
+            <li><strong>Languages:</strong> Python, JavaScript, SQL, MATLAB, HTML, CSS</li>
+            <br>
+            <li><strong>Frameworks & Libraries:</strong> sci-kit learn, Pandas, NumPy, Matplotlib, PyTorch, OpenCV</li>
+            <br>
+            <li><strong>Machine Learning Models:</strong> Deep Neural Networks, Support Vector Machines, Decision Trees, KNN, Regression</li>
+            <br>
+            <li><strong>Machine Learning Projects:</strong> Biomechanical angle determination, pose estimation, face detection, face classification</li>
+          </ul>
+          <hr>
+        </div>
 
+        <div class="resume-block">
+          <h3 class="resume-header">Education</h3>
+          <p>
+            <strong>Master of Applied Science, Specialization in Artificial Intelligence</strong><br>
+            University of Guelph, Guelph, Ontario | GPA 3.8/4.0<br>
+            Sept 2021 - Dec 2023
+          </p>
+          <p>
+            <strong>Bachelor of Engineering, Biomedical (Co-op);</strong><br>
+            Minor: Business Administration<br>
+            University of Guelph, Guelph, Ontario<br>
+            Sept 2014 - April 2019
+          </p>
+          <hr>
+        </div>
 
-            <div class="resume-block">
-              <h3 class="resume-header">Education</h3>
-            <p>
-              <strong>Master of Applied Science, Specialization in Artificial Intelligence</strong><br>
-              University of Guelph, Guelph, Ontario | GPA 3.8/4.0<br>
-              Sept 2021 - Dec 2023
-            </p>
-            <p>
-              <strong>Bachelor of Engineering, Biomedical (Co-op);</strong><br>
-              Minor: Business Administration<br>
-              University of Guelph, Guelph, Ontario<br>
-              Sept 2014 - April 2019
-            </p>
-            <hr>
-            </div>
+        <h3 class="resume-header">Work Experience</h3>
+        <div class="resume-block">
+          <h4>Machine Learning/AI Research Student</h4>
+          <p>University of Guelph, Guelph, Ontario<br>Sept 2021 - Present</p>
+          <ul>
+            <li>Engineered an innovative proprietary solution for the determination of human wrist ergonomics. Achieved accuracy and precision comparable to industry gold standards; a significant advancement in ergonomic research.</li>
+            <li>Conducted extensive testing on various model types to optimize wrist posture angle prediction from 2D data, achieving a competitive Mean Absolute Error (MAE) of 7 degrees. Further improved accuracy with the integration of 3D datasets, achieving an impressive MAE of 5 degrees, aligning with top-tier markerless motion capture systems.</li>
+            <li>Employed cost-effective off-the-shelf equipment in controlled experiments, and open-source software to capture and generate an extensive dataset of human wrist motion data. This was crucial for successful machine learning model training, enabling predictive analysis of ergonomic wrist postures through computer vision techniques.</li>
+            <li>Led the development of a robust pipeline combining YOLOv5 and ResNet-34 Convolutional Neural Networks (CNN) to process extensive open-source datasets, extract facial features from images, and perform gender and race classification. Achieving 99% confidence in gender classification and an impressive 95% confidence in race classification.</li>
+            <li>Designed experiments to evaluate machine learning models on a multi-modal human action dataset achieving an F1 score of 0.90 in classifying 21 upper body motions related to biomechanical movement.</li>
+          </ul>
 
-            <h3 class="resume-header">Work Experience</h3>
-            <div class="resume-block">
-              <h4>Machine Learning/AI Research Student</h4>
-              <p>
-                University of Guelph, Guelph, Ontario<br>
-                Sept 2021 - Present
-              </p>
-              <ul>
-                <li>Engineered an innovative proprietary solution for the determination of human wrist ergonomics. Achieved accuracy and precision comparable to industry gold standards; a significant advancement in ergonomic research.</li>
-                <li>Conducted extensive testing on various model types to optimize wrist posture angle prediction from 2D data, achieving a competitive Mean Absolute Error (MAE) of 7 degrees. Further improved accuracy with the integration of 3D datasets, achieving an impressive MAE of 5 degrees, aligning with top-tier markerless motion capture systems.</li>
-                <li>Employed cost-effective off-the-shelf equipment in controlled experiments, and open-source software to capture and generate an extensive dataset of human wrist motion data. This was crucial for successful machine learning model training, enabling predictive analysis of ergonomic wrist postures through computer vision techniques.</li>
-                <li>Led the development of a robust pipeline combining YOLOv5 and ResNet-34 Convolutional Neural Networks (CNN) to process extensive open-source datasets, extract facial features from images, and perform gender and race classification. Achieving 99% confidence in gender classification and an impressive 95% confidence in race classification.</li>
-                <li>Designed experiments to evaluate machine learning models on a multi-modal human action dataset achieving an F1 score of 0.90 in classifying 21 upper body motions related to biomechanical movement.</li>
-              </ul>
-              <h4>Manufacturing Process Developer</h4>
-              <p>
-                Sonova Group, Kitchener<br>
-                Nov 2020 - August 2021, Feb 2023 - Oct 2023
-              </p>
-              <ul>
-                <li>Played a pivotal role in orchestrating the successful launch of hearing devices and overseeing post-launch engineering activities, ensuring seamless transitions and optimal product performance.</li>
-                <li>Supervised and conducted equipment maintenance activities in the research and development area, maintaining a conducive operational environment.</li>
-                <li>Worked closely within a collaborative team, ensuring the alignment of project timelines and deliverables to guarantee the timely launch of new hearing devices and achieve organizational goals.</li>
-              </ul>
-              <hr>
-            </div>
-            <h3>Certifications</h3>
-            <div class="resume-block">
-            <p>
-              <strong>IBM Databases and SQL for Data Science with Python</strong><br>
-             Completed November 2023<br>
-            </p>
-            <p>
-              <strong>Responsive Web Design - freecodecamp</strong><br>
-              Completed September 2022<br>
-            </p>
-            <p>
-              <strong>Lean Six Sigma Green Belt - Abacus Team</strong><br>
-              Completed August 2020<br>
-            </p>
-            <hr>
-            </div>
-          </div>
+          <h4>Manufacturing Process Developer</h4>
+          <p>Sonova Group, Kitchener<br>Nov 2020 - August 2021, Feb 2023 - Oct 2023</p>
+          <ul>
+            <li>Played a pivotal role in orchestrating the successful launch of hearing devices and overseeing post-launch engineering activities, ensuring seamless transitions and optimal product performance.</li>
+            <li>Supervised and conducted equipment maintenance activities in the research and development area, maintaining a conducive operational environment.</li>
+            <li>Worked closely within a collaborative team, ensuring the alignment of project timelines and deliverables to guarantee the timely launch of new hearing devices and achieve organizational goals.</li>
+          </ul>
+          <hr>
+        </div>
+
+        <h3>Certifications</h3>
+        <div class="resume-block">
+          <p><strong>IBM Databases and SQL for Data Science with Python</strong><br>Completed November 2023</p>
+          <p><strong>Responsive Web Design - freecodecamp</strong><br>Completed September 2022</p>
+          <p><strong>Lean Six Sigma Green Belt - Abacus Team</strong><br>Completed August 2020</p>
+          <hr>
         </div>
       </div>
-  </main>
-  <br>
-  <br>
-  <div class="footer">
-    <ul class="footer-logos">
-      <li>
-        <a href="tel: 17053096860">
-            <img class="logo-image" src="./docs/assets/img/cellphone.svg">
-        </a>
-      </li>
-      <li>
-        <a href="mailto: j-carriere@live.ca">
-            <img class="logo-image" src="./docs/assets/img/email-outline.svg">
-        </a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/joelcarriere">
-            <img class="logo-image" src="./docs/assets/img/linkedin.png">
-        </a>
-      </li>
-    </ul>
-  </div>
-  <br>
-  <br>
-</body>
+    </main>
+    <br>
+    <br>
+
+    <div class="footer">
+      <ul class="footer-logos">
+        <li>
+          <a href="tel:17053096860">
+            <img class="logo-image" src="./docs/assets/img/cellphone.svg" alt="Phone">
+          </a>
+        </li>
+        <li>
+          <a href="mailto:j-carriere@live.ca">
+            <img class="logo-image" src="./docs/assets/img/email-outline.svg" alt="Email">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/joelcarriere">
+            <img class="logo-image" src="./docs/assets/img/linkedin.png" alt="LinkedIn">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <br>
+    <br>
+
+    <!-- GSAP Animations -->
+    <script>
+      // Header, Footer, and Main Content Fade-In
+      gsap.from(".header", { opacity: 0, y: -50, duration: 1 });
+      gsap.from(".footer", { opacity: 0, y: 50, duration: 1 });
+      gsap.from(".container", { opacity: 0, duration: 1.5, delay: 0.5 });
+
+      // Animate sections when scrolling into view
+      gsap.utils.toArray(".resume-block, .footer-logos").forEach((section) => {
+        gsap.from(section, {
+          opacity: 0,
+          y: 50,
+          duration: 1,
+          scrollTrigger: {
+            trigger: section,
+            start: "top 75%",
+            toggleActions: "play none none none"
+          }
+        });
+      });
+
+      // Smooth Scroll for internal links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          gsap.to(window, { duration: 1, scrollTo: this.getAttribute('href') });
+        });
+      });
+    </script>
+  </body>
 </html>

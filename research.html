@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 
-
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -15,13 +14,16 @@
     <link rel="mask-icon" href="docs/assets/img/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"></script>
   </head>
 
   <body>
     <div class="header">
       <div class="left">
-        <div id="header-logo"><img src="./docs/assets/img/site-logo-white.svg">
-        </div>
+        <div id="header-logo"><img src="./docs/assets/img/site-logo-white.svg"></div>
       </div>
       <div class="right">
         <ul class="pages">
@@ -33,81 +35,100 @@
     </div>
     
     <main>
-          <div class="container">
-            <div>
-              <h3>Machine Learning Projects</h3>
-              <p>
-                My main focus is on using open-source
-                algorithms and off-the-shelf cameras to
-                determine human wrist kinematics. 
-                Designing experiments, creating datasets,
-                and refining model parameters has lead me
-                to a high-degree of success in this.
-                The video illustrates a 3D markerset
-                generated through 2D videos and computer vision techniques.
-                The green segment seen represents markers placed 
-                on a subjects knuckles and the blue segment represents
-                markers on their wrist. The orange segment is a connection
-                representing the movement of the hand in relation to the
-                wrist. 
-              </p>
-              <video id="rom-video" preload="auto" autoplay loop muted>
-                <source src="/docs/assets/img/rom-video.mp4" type=video/mp4>
-              </video>
-              <p>
-                Laboratory experiments were conducted to build the dataset that 
-                was used in training a wrist angle prediction model. 
-                A gold-standard motion capture system was used alongside 
-                off-the-shelf cameras to build a dataset that contained 
-                marker locations with ground-truth wrist angles. 
-                I have successfully achieved a high-degree of accuracy
-                when using both a multi-camera and single camera approach
-                to solving this issue. Through the use of deep neural networks,
-                I was able to achieve an angular value with a mean
-                absolute error of approximately 5 degrees when compared to the current gold-standard. 
-              </p>
-              <hr>
-              <p>
-                Another project involved using CNNs to detect faces within photos
-                and then predict the race and gender of the subject. This was 
-                completed by using YOLOv5 to detect subject faces within several
-                open-source datasets, and crop out the face without the surroundings. 
-                The cropped faces were used to train a pre-trained ResNet-34 network
-                to be able to predict the subject race and gender. Gender classification 
-                achieved 99% accuracy and race prediction achieved up to 95% accuracy.
-              </p>
-              <hr>
-              <p>
-                Designed experiments to evaluate machine learning models on a 
-                multi-modal human action dataset achieving an F1 score of 0.90
-                in classifying 21 upper body motions related to biomechanical
-                movement.
-              </p>
-            </div>
-          </div>
-      </main>
-      <br>
-      <br>
-      <div class="footer">
-        <ul class="footer-logos">
-          <li>
-            <a href="tel: 17053096860">
-                <img class="logo-image" src="./docs/assets/img/cellphone.svg">
-            </a>
-          </li>
-          <li>
-            <a href="mailto: j-carriere@live.ca">
-                <img class="logo-image" src="./docs/assets/img/email-outline.svg">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/joelcarriere">
-                <img class="logo-image" src="./docs/assets/img/linkedin.png">
-            </a>
-          </li>
-        </ul>
+      <div class="container">
+        <div>
+          <h3>Machine Learning Projects</h3>
+          <p>
+            My main focus is on using open-source algorithms and off-the-shelf cameras to
+            determine human wrist kinematics. Designing experiments, creating datasets,
+            and refining model parameters has led me to a high-degree of success in this.
+            The video illustrates a 3D markerset generated through 2D videos and computer vision techniques.
+            The green segment seen represents markers placed on a subject's knuckles and the blue segment represents
+            markers on their wrist. The orange segment is a connection representing the movement of the hand in relation to the wrist.
+          </p>
+          <video id="rom-video" preload="auto" autoplay loop muted>
+            <source src="/docs/assets/img/rom-video.mp4" type=video/mp4>
+          </video>
+
+          <h4>Wrist Angle Prediction Model</h4>
+          <p>
+            Laboratory experiments were conducted to build the dataset that was used in training a wrist angle prediction model. 
+            A gold-standard motion capture system was used alongside off-the-shelf cameras to build a dataset that contained 
+            marker locations with ground-truth wrist angles. I have successfully achieved a high-degree of accuracy
+            when using both a multi-camera and single camera approach to solving this issue. Through the use of deep neural networks,
+            I was able to achieve an angular value with a mean absolute error of approximately 5 degrees when compared to the current gold-standard.
+          </p>
+          <hr>
+
+          <h4>Face Detection and Classification Model</h4>
+          <p>
+            Another project involved using CNNs to detect faces within photos and then predict the race and gender of the subject. This was 
+            completed by using YOLOv5 to detect subject faces within several open-source datasets, and crop out the face without the surroundings. 
+            The cropped faces were used to train a pre-trained ResNet-34 network to be able to predict the subject race and gender. Gender classification 
+            achieved 99% accuracy and race prediction achieved up to 95% accuracy.
+          </p>
+          <hr>
+
+          <h4>Human Action Dataset Evaluation</h4>
+          <p>
+            Designed experiments to evaluate machine learning models on a multi-modal human action dataset achieving an F1 score of 0.90
+            in classifying 21 upper body motions related to biomechanical movement.
+          </p>
+        </div>
       </div>
-      <br>
-      <br>
-</body>
+    </main>
+    <br>
+    <br>
+    <div class="footer">
+      <ul class="footer-logos">
+        <li>
+          <a href="tel: 17053096860">
+            <img class="logo-image" src="./docs/assets/img/cellphone.svg">
+          </a>
+        </li>
+        <li>
+          <a href="mailto: j-carriere@live.ca">
+            <img class="logo-image" src="./docs/assets/img/email-outline.svg">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/joelcarriere">
+            <img class="logo-image" src="./docs/assets/img/linkedin.png">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <br>
+    <br>
+
+    <!-- GSAP Animations -->
+    <script>
+      // Header, Footer, and Main Content Fade-In
+      gsap.from(".header", { opacity: 0, y: -50, duration: 1 });
+      gsap.from(".footer", { opacity: 0, y: 50, duration: 1 });
+      gsap.from(".container", { opacity: 0, duration: 1.5, delay: 0.5 });
+
+      // Animate sections when scrolling into view
+      gsap.utils.toArray(".container div, .footer-logos").forEach((section) => {
+        gsap.from(section, {
+          opacity: 0,
+          y: 50,
+          duration: 1,
+          scrollTrigger: {
+            trigger: section,
+            start: "top 75%",
+            toggleActions: "play none none none"
+          }
+        });
+      });
+
+      // Smooth Scroll for internal links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          gsap.to(window, { duration: 1, scrollTo: this.getAttribute('href') });
+        });
+      });
+    </script>
+  </body>
 </html>
