@@ -198,6 +198,7 @@ hr {
   justify-content: space-between;
   gap: 20px;
   margin-bottom: 40px;
+  padding: 20px 0;
 }
 
 .banner-side {
@@ -214,7 +215,14 @@ hr {
   max-width: 50%;
   text-align: left;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   overflow-y: auto;
+}
+
+button {
+  align-self: flex-start;  /* Keep the button within its content on smaller screens */
 }
 
 /* Fix Footer Padding and Spacing */
@@ -227,31 +235,6 @@ hr {
   flex-grow: 1; /* Ensure the container takes up remaining space */
 }
 
-/* Desktop Styles */
-@media (min-width: 768px) {
-  .header {
-    height: 60px;
-  }
-
-  .footer {
-    height: 60px;
-  }
-
-  #rom-video {
-    width: 50%;
-  }
-
-  .container {
-    justify-content: center;
-    padding: 0 20px;
-  }
-
-  .banner-side img {
-    max-width: 80%;
-    height: auto;
-  }
-}
-
 /* Mobile Styles */
 @media (max-width: 768px) {
   .header {
@@ -259,18 +242,27 @@ hr {
     padding: 10px;
   }
 
+  .pages {
+    display: flex;
+    flex-direction: column;  /* Stack the links vertically for small screens */
+    gap: 10px;
+    padding: 10px 0;
+  }
+
+  .pages li a {
+    font-size: 0.9em;  /* Reduce font size on mobile */
+    padding: 10px 5px; /* Reduce padding to fit the links on mobile screens */
+  }
+
   .footer {
     font-size: 1.2em;
     padding: 10px;
   }
 
-  #rom-video {
-    width: 100%;
-  }
-
   .top-content {
     flex-direction: column;
     align-items: center;
+    padding: 20px 0;
   }
 
   .banner-side,
@@ -280,5 +272,13 @@ hr {
 
   .container {
     min-height: calc(100vh - 50px);
+  }
+
+  .intro-paragraph p {
+    font-size: 1em; /* Adjust font size for better readability on mobile */
+  }
+
+  button {
+    margin-top: 20px; /* Add spacing on mobile so button does not overlap with other elements */
   }
 }
